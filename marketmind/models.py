@@ -50,6 +50,7 @@ class Product(BaseModel):
     in_stock: bool = True
     seller_id: Optional[str] = None
     seller_name: Optional[str] = None
+    attributes: dict = Field(default_factory=dict)
 
 
 class Review(BaseModel):
@@ -73,6 +74,32 @@ class SellerInfo(BaseModel):
     delivery_speed: Optional[str] = None
 
 
+# --- Grouped product (same model across marketplaces) ---
+
+class MarketplaceOffer(BaseModel):
+    """One offer of a product on a specific marketplace."""
+    marketplace: str
+    product_id: str
+    price: int
+    original_price: Optional[int] = None
+    url: str
+    seller_name: Optional[str] = None
+    rating: float
+    review_count: int
+
+
+class ProductGroup(BaseModel):
+    """A single real-world product grouped across marketplaces."""
+    group_id: str
+    canonical_name: str
+    offers: list[MarketplaceOffer] = Field(default_factory=list)
+    best_price: int = 0
+    best_marketplace: str = ""
+    avg_rating: float = 0.0
+    total_review_count: int = 0
+    attributes: dict = Field(default_factory=dict)
+
+
 # --- Analysis ---
 
 class ReviewSummary(BaseModel):
@@ -83,7 +110,7 @@ class ReviewSummary(BaseModel):
 
 
 class ProductAnalysis(BaseModel):
-    product: Product
+    product_group: ProductGroup
     review_summary: ReviewSummary
     value_score: float = Field(default=0.0, ge=0, le=1)
     fit_score: float = Field(default=0.0, ge=0, le=1)
@@ -93,7 +120,7 @@ class ProductAnalysis(BaseModel):
 
 class RankedProduct(BaseModel):
     rank: int
-    product: Product
+    product_group: ProductGroup
     review_summary: ReviewSummary
     final_score: float = Field(ge=0, le=1)
     fit_explanation: str = ""
@@ -120,13 +147,14 @@ class AgentState(BaseModel):
 
     # Input
     user_query: str = ""
+    chat_history: list[dict] = Field(default_factory=list)
 
     # Parsed
     query_spec: Optional[QuerySpec] = None
 
-    # Search results
-    products: list[Product] = Field(default_factory=list)
-    product_reviews: dict[str, list[Review]] = Field(default_factory=dict)
+    # Search results (grouped by model)
+    product_groups: list[ProductGroup] = Field(default_factory=list)
+    group_reviews: dict[str, list[Review]] = Field(default_factory=dict)
 
     # Analysis
     analyzed_products: list[ProductAnalysis] = Field(default_factory=list)

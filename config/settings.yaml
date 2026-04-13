@@ -13,6 +13,13 @@ llm:
   max_calls_per_request: 10
   max_tokens_per_request: 50000
   max_cost_per_request: 0.10
+  max_duration_seconds: 90
+  # Per-stage model routing (empty = use default model above)
+  stage_models:
+    query_analysis: ""          # e.g. "deepseek-chat" for fast parsing
+    review_analysis: ""         # e.g. "deepseek-chat" for batch review work
+    comparison: ""              # e.g. "deepseek-reasoner" for deep analysis
+    recommendation: ""          # e.g. "deepseek-reasoner" for final ranking
 
 search:
   sources:

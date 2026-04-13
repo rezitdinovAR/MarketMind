@@ -37,6 +37,12 @@ llm:
   max_calls_per_request: 10
   max_tokens_per_request: 50000
   max_cost_per_request: 0.10
+  max_duration_seconds: 90
+  stage_models:              # Per-stage LLM routing — если указано непустое значение,
+    query_analysis: ""       # эта модель используется вместо дефолтной для данной стадии
+    review_analysis: ""
+    comparison: ""
+    recommendation: ""
 
 search:
   sources:
@@ -89,3 +95,63 @@ DEEPSEEK_API_KEY|env var|Yes
 
 **Секреты никогда не пишутся в код или config файлы.**  
 При старте приложения валидируется наличие обязательных секретов.
+
+---
+
+## 5. Per-stage Model Routing
+
+Система поддерживает использование разных LLM-моделей для разных стадий пайплайна. Это позволяет оптимизировать баланс скорости, качества и стоимости.
+
+### 5.1 Конфигурация
+
+В `LLMConfig` встроена модель `StageModelConfig`, управляющая маршрутизацией:
+
+```python
+class StageModelConfig(BaseModel):
+    """Per-stage LLM model routing."""
+    query_analysis: str = ""
+    review_analysis: str = ""
+    comparison: str = ""
+    recommendation: str = ""
+```
+
+| Поле | Стадия пайплайна | Описание |
+|------|------------------|----------|
+| query_analysis | QueryAnalyzer | Парсинг пользовательского запроса |
+| review_analysis | ReviewAnalyzer | Суммаризация отзывов |
+| comparison | Comparator | Сравнительный анализ товаров |
+| recommendation | Recommender | Финальная рекомендация |
+
+**Пустая строка** (`""`) означает использование модели по умолчанию из `llm.model`.
+
+### 5.2 Пример конфигурации в settings.yaml
+
+```yaml
+llm:
+  model: "deepseek-chat"         # модель по умолчанию
+  stage_models:
+    query_analysis: "deepseek-chat"       # быстрый парсинг
+    review_analysis: ""                    # используется default
+    comparison: "deepseek-reasoner"       # глубокий анализ
+    recommendation: "deepseek-reasoner"   # сложное ранжирование
+```
+
+### 5.3 Механизм работы
+
+1. **Резолвинг модели** — `LLMConfig.get_model_for_stage(stage)` возвращает модель для указанной стадии. Если для стадии задана пустая строка, возвращается `self.model` (default).
+
+```python
+def get_model_for_stage(self, stage: str) -> str:
+    override = getattr(self.stage_models, stage, "")
+    return override if override else self.model
+```
+
+2. **Передача в LLM** — `LLMClient.call()` и `LLMClient.call_json()` принимают параметр `model_override`. Если передан — используется он вместо default-модели. Каждый узел оркестратора вызывает `get_model_for_stage()` и передаёт результат как `model_override`.
+
+### 5.4 Примеры использования
+
+| Сценарий | query_analysis | review_analysis | comparison | recommendation |
+|----------|---------------|-----------------|------------|----------------|
+| Минимальная стоимость | deepseek-chat | deepseek-chat | deepseek-chat | deepseek-chat |
+| Максимальное качество | deepseek-reasoner | deepseek-reasoner | deepseek-reasoner | deepseek-reasoner |
+| Оптимальный баланс | deepseek-chat | deepseek-chat | deepseek-reasoner | deepseek-reasoner |

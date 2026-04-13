@@ -41,12 +41,14 @@ class Product:
     name: str
     price: int
     original_price: int | None
+    marketplace: str
     rating: float
     review_count: int
     url: str
     image_url: str | None
     in_stock: bool
     seller_id: str | None
+    seller_name: str | None
 ```
 ---
 
@@ -61,23 +63,25 @@ class Product:
 | product_id | str | да | ID товара (например "ozon_12345") |
 | marketplace | str | да | Маркетплейс |
 
-**Output:** `ProductDetails`
+**Output:** `dict` (структура ProductDetails)
 ```python
-class ProductDetails:
-    id: str
-    name: str
-    full_description: str
-    price: int
-    original_price: int | None
-    rating: float
-    review_count: int
-    url: str
-    image_urls: list[str]
-    in_stock: bool
-    attributes: dict # {"Тип": "полноразмерные", "Bluetooth": "5.0", ...}
-    seller_id: str
-    seller_name: str
-    delivery_info: str | None
+# Возвращаемый dict:
+{
+    "id": str,
+    "name": str,
+    "full_description": str,
+    "price": int,
+    "original_price": int | None,
+    "rating": float,
+    "review_count": int,
+    "url": str,
+    "image_urls": list[str],
+    "in_stock": bool,
+    "attributes": dict,  # {"Тип": "полноразмерные", "Bluetooth": "5.0", ...}
+    "seller_id": str,
+    "seller_name": str,
+    "delivery_info": str | None,
+}
 ```
 
 **Когда используется:**
@@ -109,7 +113,6 @@ class Review:
     author: str | None
     verified_purchase: bool
     helpful_count: int
-    images: list[str]ca
 ```
 
 **Особенности:**

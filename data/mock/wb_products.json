@@ -12,11 +12,38 @@
         "in_stock": true,
         "seller_id": "wb_seller_megamarket",
         "seller_name": "МегаМаркет Электроника",
-        "attributes": {"Тип": "полноразмерные", "Подключение": "Bluetooth 5.2", "Шумоподавление": "активное", "Время работы": "30 ч", "Вес": "250 г"},
+        "attributes": {
+          "Тип": "полноразмерные",
+          "Подключение": "Bluetooth 5.2",
+          "Шумоподавление": "активное",
+          "Время работы": "30 ч",
+          "Вес": "250 г"
+        },
         "reviews": [
-          {"id": "wr001", "text": "Заказал на WB, доставили за день. Наушники шикарные, звук чистый и детальный. Шумоподавление лучшее из того что пробовал. Единственное — нагреваются уши при длительном ношении летом.", "rating": 5, "date": "2025-03-08", "verified_purchase": true, "helpful_count": 38},
-          {"id": "wr002", "text": "Были Sony XM3, взял XM5. Прогресс колоссальный. Мультипоинт — подключены к ноуту и телефону одновременно. Шумодав лучше. Минус один — не складываются.", "rating": 5, "date": "2025-02-25", "verified_purchase": true, "helpful_count": 22},
-          {"id": "wr003", "text": "Качество звука на высоте, но для спорта не подходят категорически. Для офиса и дома — 10 из 10.", "rating": 4, "date": "2025-02-05", "verified_purchase": true, "helpful_count": 15}
+          {
+            "id": "wr001",
+            "text": "Заказал на WB, доставили за день. Наушники шикарные, звук чистый и детальный. Шумоподавление лучшее из того что пробовал. Единственное — нагреваются уши при длительном ношении летом.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr002",
+            "text": "Были Sony XM3, взял XM5. Прогресс колоссальный. Мультипоинт — подключены к ноуту и телефону одновременно. Шумодав лучше. Минус один — не складываются.",
+            "rating": 5,
+            "date": "2025-02-25",
+            "verified_purchase": true,
+            "helpful_count": 22
+          },
+          {
+            "id": "wr003",
+            "text": "Качество звука на высоте, но для спорта не подходят категорически. Для офиса и дома — 10 из 10.",
+            "rating": 4,
+            "date": "2025-02-05",
+            "verified_purchase": true,
+            "helpful_count": 15
+          }
         ]
       },
       {
@@ -30,11 +57,38 @@
         "in_stock": true,
         "seller_id": "wb_seller_samsung",
         "seller_name": "Samsung Store",
-        "attributes": {"Тип": "вкладыши (TWS)", "Подключение": "Bluetooth 5.4", "Шумоподавление": "активное", "Время работы": "7 ч (30 ч с кейсом)", "Вес": "5.4 г"},
+        "attributes": {
+          "Тип": "вкладыши (TWS)",
+          "Подключение": "Bluetooth 5.4",
+          "Шумоподавление": "активное",
+          "Время работы": "7 ч (30 ч с кейсом)",
+          "Вес": "5.4 г"
+        },
         "reviews": [
-          {"id": "wr004", "text": "Для Samsung-экосистемы — идеальные наушники. Шумоподавление на уровне AirPods Pro. Звук с Galaxy S24 — прекрасный, поддержка кодеков SSC. С iPhone тоже работают, но хуже.", "rating": 5, "date": "2025-03-02", "verified_purchase": true, "helpful_count": 27},
-          {"id": "wr005", "text": "Дизайн стал лучше, не выпадают из ушей. Но пластик царапается моментально. Звук хороший, басы можно подкрутить в приложении.", "rating": 4, "date": "2025-02-14", "verified_purchase": true, "helpful_count": 13},
-          {"id": "wr006", "text": "Купил для бега. Держатся нормально, IPX7 — бегал под дождём. Шумоподавление среднее, не как у Sony, но для улицы хватает.", "rating": 4, "date": "2025-01-20", "verified_purchase": true, "helpful_count": 19}
+          {
+            "id": "wr004",
+            "text": "Для Samsung-экосистемы — идеальные наушники. Шумоподавление на уровне AirPods Pro. Звук с Galaxy S24 — прекрасный, поддержка кодеков SSC. С iPhone тоже работают, но хуже.",
+            "rating": 5,
+            "date": "2025-03-02",
+            "verified_purchase": true,
+            "helpful_count": 27
+          },
+          {
+            "id": "wr005",
+            "text": "Дизайн стал лучше, не выпадают из ушей. Но пластик царапается моментально. Звук хороший, басы можно подкрутить в приложении.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 13
+          },
+          {
+            "id": "wr006",
+            "text": "Купил для бега. Держатся нормально, IPX7 — бегал под дождём. Шумоподавление среднее, не как у Sony, но для улицы хватает.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
         ]
       },
       {
@@ -48,11 +102,356 @@
         "in_stock": true,
         "seller_id": "wb_seller_qcy",
         "seller_name": "QCY Store",
-        "attributes": {"Тип": "вкладыши (TWS)", "Подключение": "Bluetooth 5.3", "Шумоподавление": "активное", "Время работы": "8 ч (30 ч с кейсом)", "Вес": "5.2 г"},
+        "attributes": {
+          "Тип": "вкладыши (TWS)",
+          "Подключение": "Bluetooth 5.3",
+          "Шумоподавление": "активное",
+          "Время работы": "8 ч (30 ч с кейсом)",
+          "Вес": "5.2 г"
+        },
         "reviews": [
-          {"id": "wr007", "text": "За 3к — отличные наушники! Шумоподавление есть, работает. Не как Sony или Apple, но для метро хватает. Звук приличный. Рекомендую как бюджетный вариант.", "rating": 5, "date": "2025-03-05", "verified_purchase": true, "helpful_count": 89},
-          {"id": "wr008", "text": "Качество за свою цену. Минусы: микрофон слабый для звонков, приложение глючное. Плюсы: звук нормальный, батарея долго, ANC работает.", "rating": 4, "date": "2025-02-20", "verified_purchase": true, "helpful_count": 45},
-          {"id": "wr009", "text": "Третья пара QCY, и снова не разочарован. Для спортзала идеальны — дешёвые, если сломаются не жалко. Но пока работают 4 месяца без проблем.", "rating": 4, "date": "2025-01-28", "verified_purchase": true, "helpful_count": 22}
+          {
+            "id": "wr007",
+            "text": "За 3к — отличные наушники! Шумоподавление есть, работает. Не как Sony или Apple, но для метро хватает. Звук приличный. Рекомендую как бюджетный вариант.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 89
+          },
+          {
+            "id": "wr008",
+            "text": "Качество за свою цену. Минусы: микрофон слабый для звонков, приложение глючное. Плюсы: звук нормальный, батарея долго, ANC работает.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr009",
+            "text": "Третья пара QCY, и снова не разочарован. Для спортзала идеальны — дешёвые, если сломаются не жалко. Но пока работают 4 месяца без проблем.",
+            "rating": 4,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      },
+      {
+        "id": "wb_h004",
+        "name": "Bose QuietComfort Ultra Headphones",
+        "attributes": {
+          "Тип": "полноразмерные",
+          "Подключение": "Bluetooth 5.3",
+          "Шумоподавление": "активное",
+          "Время работы": "24 ч",
+          "Вес": "250 г",
+          "Пространственное аудио": "Immersive Audio"
+        },
+        "price": 32490,
+        "original_price": 39990,
+        "rating": 4.7,
+        "review_count": 890,
+        "url": "https://wildberries.ru/product/bose-qc-ultra-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_bose",
+        "seller_name": "Bose Store",
+        "reviews": [
+          {
+            "id": "wr200",
+            "text": "На WB нашёл дешевле чем в официальном магазине. Наушники топовые — шумоподавление на уровне Sony, звук даже лучше. Immersive Audio — реально окружает звуком. Доставка за день.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr201",
+            "text": "Сравнивал с Sony XM5 две недели. Bose звучат более натурально, Sony более аналитично. Шумодав примерно одинаковый. Выбрал Bose за пространственное аудио. Не пожалел.",
+            "rating": 5,
+            "date": "2025-02-22",
+            "verified_purchase": true,
+            "helpful_count": 33
+          },
+          {
+            "id": "wr202",
+            "text": "Отличные наушники, но тяжеловаты. Через 2-3 часа хочется снять. Звук великолепный, шумодав мощный. Для перелётов — must have. Кейс в комплекте качественный.",
+            "rating": 4,
+            "date": "2025-02-01",
+            "verified_purchase": true,
+            "helpful_count": 21
+          }
+        ]
+      },
+      {
+        "id": "wb_h005",
+        "name": "Marshall Major IV Bluetooth",
+        "attributes": {
+          "Тип": "накладные",
+          "Подключение": "Bluetooth 5.0",
+          "Шумоподавление": "нет",
+          "Время работы": "80 ч",
+          "Вес": "165 г",
+          "Зарядка": "беспроводная Qi"
+        },
+        "price": 7490,
+        "original_price": 9990,
+        "rating": 4.6,
+        "review_count": 2450,
+        "url": "https://wildberries.ru/product/marshall-major-iv-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_marshall",
+        "seller_name": "Marshall Store",
+        "reviews": [
+          {
+            "id": "wr203",
+            "text": "Батарея 80 часов — заряжаю раз в месяц при ежедневном использовании по 2 часа! Звук Marshall — басистый, рок качает. Складные, компактные. Для тех, кому не нужен ANC — идеальные.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr204",
+            "text": "Стильные наушники в ретро-дизайне. Звук тёплый, приятный. Для рока, джаза, блюза — идеально. Для электронной музыки — не хватает деталей на верхах. Беспроводная зарядка — приятный бонус.",
+            "rating": 4,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 25
+          },
+          {
+            "id": "wr205",
+            "text": "Купил на WB со скидкой за 7.5к — за такие деньги это подарок. Лёгкие, удобные, звук отличный. Нет ANC — единственный минус. Но 80 часов автономности компенсируют.",
+            "rating": 5,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_h006",
+        "name": "Beats Solo 4 Wireless",
+        "attributes": {
+          "Тип": "накладные",
+          "Подключение": "Bluetooth 5.3",
+          "Шумоподавление": "нет",
+          "Время работы": "50 ч",
+          "Вес": "217 г",
+          "Пространственное аудио": "Dolby Atmos"
+        },
+        "price": 17990,
+        "original_price": 22990,
+        "rating": 4.3,
+        "review_count": 670,
+        "url": "https://wildberries.ru/product/beats-solo4-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_beats",
+        "seller_name": "Beats Store",
+        "reviews": [
+          {
+            "id": "wr206",
+            "text": "Beats изменились в лучшую сторону. Звук сбалансированный, не только басы. Работают и с iPhone и Android. 50 часов батареи — супер. Складные, лёгкие. Нет ANC — но для этой цены и не жду.",
+            "rating": 4,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 29
+          },
+          {
+            "id": "wr207",
+            "text": "Стильные наушники с хорошим звуком. Apple W1 чип — мгновенное подключение к iPhone. Dolby Atmos поддержка — для Apple Music круто. USB-C зарядка — удобно.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 17
+          },
+          {
+            "id": "wr208",
+            "text": "Подарил девушке — в восторге. Дизайн красивый, звук хороший. Для повседневного использования — отлично. Не давят на уши, лёгкие. Рекомендую как стильный аксессуар с хорошим звуком.",
+            "rating": 5,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 12
+          }
+        ]
+      },
+      {
+        "id": "wb_h007",
+        "name": "Sennheiser Momentum 4 Wireless",
+        "price": 24990,
+        "original_price": 31990,
+        "rating": 4.8,
+        "review_count": 450,
+        "url": "https://wildberries.ru/product/sennheiser-momentum4-007",
+        "in_stock": true,
+        "seller_id": "wb_seller_sennheiser",
+        "seller_name": "Sennheiser Store",
+        "attributes": {
+          "Тип": "полноразмерные",
+          "Подключение": "Bluetooth 5.2",
+          "Шумоподавление": "адаптивное",
+          "Время работы": "60 ч",
+          "Вес": "293 г"
+        },
+        "reviews": [
+          {
+            "id": "wr300",
+            "text": "На WB дешевле на 2к чем на Ozon. Sennheiser Momentum 4 — для аудиофилов. Звук невероятный, каждый инструмент слышен. Батарея 60 часов — рекорд.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr301",
+            "text": "Звук богаче чем у Sony XM5. Шумоподавление чуть слабее, но адаптивное — подстраивается. Тяжеловаты, но для домашнего использования — идеал.",
+            "rating": 4,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 27
+          },
+          {
+            "id": "wr302",
+            "text": "Лучшие наушники для классической музыки и джаза. Сцена широкая, детализация на высоте. ANC адаптивный — удобно. Заряжаю раз в месяц.",
+            "rating": 5,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_h007b",
+        "name": "Sony WF-1000XM5 TWS",
+        "price": 23990,
+        "original_price": 29990,
+        "rating": 4.7,
+        "review_count": 1120,
+        "url": "https://wildberries.ru/product/sony-wf1000xm5-007b",
+        "in_stock": true,
+        "seller_id": "wb_seller_sony",
+        "seller_name": "Sony Store",
+        "attributes": {
+          "Тип": "вкладыши (TWS)",
+          "Подключение": "Bluetooth 5.3",
+          "Шумоподавление": "активное",
+          "Время работы": "8 ч (24 ч с кейсом)",
+          "Вес": "5.9 г"
+        },
+        "reviews": [
+          {
+            "id": "wr303",
+            "text": "Лучшие TWS на рынке. На WB нашёл за 24к — на сайте Sony 30к. Шумодав как у полноразмерных. Звук Hi-Res через LDAC. Компактные.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 51
+          },
+          {
+            "id": "wr304",
+            "text": "Шумоподавление для TWS — невероятное. В метро тишина. Звук детальный, басы точные. Кейс маленький, помещается в карман. Батарея 8ч — на день хватает.",
+            "rating": 5,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 33
+          },
+          {
+            "id": "wr305",
+            "text": "Дорого, но Sony WF-1000XM5 стоят каждого рубля. Для тех, кому важен звук и ANC в формате TWS — альтернатив нет.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 21
+          }
+        ]
+      },
+      {
+        "id": "wb_h008",
+        "name": "Edifier W820NB Plus",
+        "price": 4290,
+        "original_price": 5990,
+        "rating": 4.4,
+        "review_count": 4500,
+        "url": "https://wildberries.ru/product/edifier-w820nb-008",
+        "in_stock": true,
+        "seller_id": "wb_seller_edifier",
+        "seller_name": "Edifier Store",
+        "attributes": {
+          "Тип": "полноразмерные",
+          "Подключение": "Bluetooth 5.2",
+          "Шумоподавление": "активное (гибридное)",
+          "Время работы": "49 ч",
+          "Вес": "220 г"
+        },
+        "reviews": [
+          {
+            "id": "wr306",
+            "text": "На WB самая низкая цена! За 4.3к — наушники с ANC, 49 часов батареи. Звук хороший, ANC работает. Бюджетный хит года. Покупайте пока дёшево.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 89
+          },
+          {
+            "id": "wr307",
+            "text": "Edifier за копейки делают отличные наушники. ANC реально фильтрует шум метро. Звук ровный, не утомляет. Лёгкие, удобные. За 4к — подарок.",
+            "rating": 5,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 62
+          },
+          {
+            "id": "wr308",
+            "text": "Пластик не премиальный, но за такие деньги — ожидаемо. Главное — звук и ANC работают хорошо. Батарея 49 часов. Рекомендую как бюджетный вариант.",
+            "rating": 4,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 38
+          }
+        ]
+      },
+      {
+        "id": "wb_h009",
+        "name": "Jabra Elite 85t TWS",
+        "price": 13990,
+        "original_price": 18990,
+        "rating": 4.4,
+        "review_count": 980,
+        "url": "https://wildberries.ru/product/jabra-elite85t-009",
+        "in_stock": true,
+        "seller_id": "wb_seller_jabra",
+        "seller_name": "Jabra Store",
+        "attributes": {
+          "Тип": "вкладыши (TWS)",
+          "Подключение": "Bluetooth 5.1",
+          "Шумоподавление": "активное (регулируемое)",
+          "Время работы": "5.5 ч (25 ч с кейсом)",
+          "Вес": "7 г"
+        },
+        "reviews": [
+          {
+            "id": "wr309",
+            "text": "Jabra — короли звонков. 6 микрофонов, шумоподавление при разговоре. В офисе — незаменимы. Звук музыки тоже хорош. ANC регулируется.",
+            "rating": 5,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr310",
+            "text": "Для Android — лучше AirPods Pro. Приложение Jabra Sound+ удобное. ANC настраивается от 0 до 100%. Звук сбалансированный.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 20
+          },
+          {
+            "id": "wr311",
+            "text": "Хорошие наушники для работы и музыки. Великоваты для маленьких ушей. Но качество звука и ANC — на высоте. Для видеоконференций — лучшие.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 14
+          }
         ]
       }
     ],
@@ -68,10 +467,30 @@
         "in_stock": true,
         "seller_id": "wb_seller_huawei",
         "seller_name": "Huawei Store",
-        "attributes": {"Процессор": "Intel Core i5-1240P", "ОЗУ": "16 ГБ", "SSD": "512 ГБ", "Экран": "14\" 2K IPS", "ОС": "Windows 11"},
+        "attributes": {
+          "Процессор": "Intel Core i5-1240P",
+          "ОЗУ": "16 ГБ",
+          "SSD": "512 ГБ",
+          "Экран": "14\" 2K IPS",
+          "ОС": "Windows 11"
+        },
         "reviews": [
-          {"id": "wr020", "text": "Шикарный ноут за свои деньги. Экран 2K отличный для работы с текстом. Металлический корпус, выглядит дорого. Батарея 8 часов реально. Минус — нет USB-A, только Type-C.", "rating": 5, "date": "2025-03-01", "verified_purchase": true, "helpful_count": 28},
-          {"id": "wr021", "text": "Для программирования — отличный. 16 ГБ хватает, экран не устаёт глаза. Клавиатура удобная. Не хватает только нормальной видеокарты для ML.", "rating": 4, "date": "2025-02-10", "verified_purchase": true, "helpful_count": 16}
+          {
+            "id": "wr020",
+            "text": "Шикарный ноут за свои деньги. Экран 2K отличный для работы с текстом. Металлический корпус, выглядит дорого. Батарея 8 часов реально. Минус — нет USB-A, только Type-C.",
+            "rating": 5,
+            "date": "2025-03-01",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr021",
+            "text": "Для программирования — отличный. 16 ГБ хватает, экран не устаёт глаза. Клавиатура удобная. Не хватает только нормальной видеокарты для ML.",
+            "rating": 4,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
         ]
       },
       {
@@ -85,10 +504,293 @@
         "in_stock": true,
         "seller_id": "wb_seller_techno",
         "seller_name": "ТехноМаркет",
-        "attributes": {"Процессор": "Intel Core i5-1335U", "ОЗУ": "16 ГБ", "SSD": "512 ГБ", "Экран": "15.6\" FHD IPS", "ОС": "Без ОС"},
+        "attributes": {
+          "Процессор": "Intel Core i5-1335U",
+          "ОЗУ": "16 ГБ",
+          "SSD": "512 ГБ",
+          "Экран": "15.6\" FHD IPS",
+          "ОС": "Без ОС"
+        },
         "reviews": [
-          {"id": "wr022", "text": "Тот же Vivobook что на Ozon, но чуть дешевле. Доставка WB быстрее. Ноут рабочий, для учёбы и офиса нормально.", "rating": 4, "date": "2025-03-05", "verified_purchase": true, "helpful_count": 10},
-          {"id": "wr023", "text": "Нормальный ноут без изысков. Работает стабильно, не тормозит. Для простых задач самое то.", "rating": 4, "date": "2025-02-20", "verified_purchase": true, "helpful_count": 7}
+          {
+            "id": "wr022",
+            "text": "Тот же Vivobook что на Ozon, но чуть дешевле. Доставка WB быстрее. Ноут рабочий, для учёбы и офиса нормально.",
+            "rating": 4,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 10
+          },
+          {
+            "id": "wr023",
+            "text": "Нормальный ноут без изысков. Работает стабильно, не тормозит. Для простых задач самое то.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 7
+          }
+        ]
+      },
+      {
+        "id": "wb_n003",
+        "name": "HP Pavilion 15 (i5-1335U, 16GB, 512GB SSD)",
+        "attributes": {
+          "Процессор": "Intel Core i5-1335U",
+          "ОЗУ": "16 ГБ",
+          "SSD": "512 ГБ",
+          "Экран": "15.6\" FHD IPS",
+          "ОС": "Windows 11 Home"
+        },
+        "price": 55990,
+        "original_price": 64990,
+        "rating": 4.3,
+        "review_count": 780,
+        "url": "https://wildberries.ru/product/hp-pavilion-15-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_hp",
+        "seller_name": "HP Store",
+        "reviews": [
+          {
+            "id": "wr209",
+            "text": "На WB нашёл дешевле на 3к чем на Ozon. Ноут нормальный — для работы хватает. Windows 11 предустановлена. 16 ГБ ОЗУ, SSD быстрый. Экран средний, но для офиса ок.",
+            "rating": 4,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 22
+          },
+          {
+            "id": "wr210",
+            "text": "Хороший рабочий ноутбук без изысков. HP Pavilion — проверенная серия. Для Excel, Word, браузера — более чем достаточно. Батарея 5 часов — терпимо.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 14
+          },
+          {
+            "id": "wr211",
+            "text": "Пластик дешёвый, но работает стабильно. i5-1335U хватает для повседневных задач. Камера на крышке — для видеозвонков нормально. За свою цену — адекватный ноут.",
+            "rating": 3,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_n004",
+        "name": "MSI Thin 15 B12UC (i5-12450H, RTX 3050, 16GB)",
+        "attributes": {
+          "Процессор": "Intel Core i5-12450H",
+          "ОЗУ": "16 ГБ",
+          "SSD": "512 ГБ",
+          "Видеокарта": "NVIDIA RTX 3050 4GB",
+          "Экран": "15.6\" FHD IPS 144Hz"
+        },
+        "price": 62990,
+        "original_price": 74990,
+        "rating": 4.5,
+        "review_count": 560,
+        "url": "https://wildberries.ru/product/msi-thin-15-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_msi",
+        "seller_name": "MSI Store",
+        "reviews": [
+          {
+            "id": "wr212",
+            "text": "Бюджетный гейминг! RTX 3050 тянет все игры на средних. 144 Гц экран — плавно. MSI Thin реально тонкий для игрового ноута. На WB нашёл дешевле чем везде.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 37
+          },
+          {
+            "id": "wr213",
+            "text": "Для студента-геймера — идеально. Днём учёба, вечером CS2. RTX 3050 для 1080p хватает. Батарея при играх — 1.5 часа, но кто играет без розетки? Клавиатура с RGB.",
+            "rating": 4,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr214",
+            "text": "Шумит при нагрузке — это факт. Но все игровые ноуты шумят. Зато производительность отличная. Для своей цены — лучший игровой ноут. Корпус пластик, но крепкий.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 15
+          }
+        ]
+      },
+      {
+        "id": "wb_n005",
+        "name": "Acer Aspire 5 A515 (Ryzen 5 7520U, 8GB, 256GB)",
+        "attributes": {
+          "Процессор": "AMD Ryzen 5 7520U",
+          "ОЗУ": "8 ГБ",
+          "SSD": "256 ГБ",
+          "Экран": "15.6\" FHD IPS",
+          "ОС": "Без ОС"
+        },
+        "price": 32990,
+        "original_price": 39990,
+        "rating": 4.1,
+        "review_count": 1450,
+        "url": "https://wildberries.ru/product/acer-aspire5-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_acer",
+        "seller_name": "Acer Store",
+        "reviews": [
+          {
+            "id": "wr215",
+            "text": "Самый бюджетный ноут, который реально работает. Ryzen 5 — быстрый для своей цены. 8 ГБ ОЗУ — впритык, но можно добавить. SSD 256 — мало, но можно расширить.",
+            "rating": 4,
+            "date": "2025-03-01",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr216",
+            "text": "Купил для интернета и документов — справляется. Большего не жду за 33к. Экран обычный, динамики слабые. Зато надёжный и не тормозит.",
+            "rating": 3,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 17
+          },
+          {
+            "id": "wr217",
+            "text": "Для школьника — отличный вариант. Уроки, YouTube, простые игры — всё тянет. Лёгкий, компактный. ОС нет — поставил Linux Mint, летает.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 12
+          }
+        ]
+      },
+      {
+        "id": "wb_n006",
+        "name": "Apple MacBook Air 13 M2 (8GB, 256GB)",
+        "price": 91990,
+        "original_price": 99990,
+        "rating": 4.9,
+        "review_count": 890,
+        "url": "https://wildberries.ru/product/macbook-air-m2-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_apple",
+        "seller_name": "Apple Reseller Official",
+        "attributes": {
+          "Процессор": "Apple M2",
+          "ОЗУ": "8 ГБ",
+          "SSD": "256 ГБ",
+          "Экран": "13.6\" Liquid Retina",
+          "ОС": "macOS"
+        },
+        "reviews": [
+          {
+            "id": "wr320",
+            "text": "На WB MacBook Air дешевле чем в re:Store. M2 — мощнейший чип. Бесшумный. Батарея 12+ часов. Для работы — лучший ноут.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 58
+          },
+          {
+            "id": "wr321",
+            "text": "Лёгкий, тонкий, мощный. Экран Liquid Retina великолепен. macOS + M2 = идеальная связка. SSD 256 — единственный минус.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr322",
+            "text": "Перешёл с Windows — другой мир. Всё работает моментально. Батарея на весь день. Качество сборки Apple — без нареканий.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      },
+      {
+        "id": "wb_n007",
+        "name": "Xiaomi RedmiBook 15 (i5-11320H, 16GB, 512GB)",
+        "price": 41490,
+        "original_price": 49990,
+        "rating": 4.2,
+        "review_count": 2340,
+        "url": "https://wildberries.ru/product/xiaomi-redmibook15-007",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Official",
+        "attributes": {
+          "Процессор": "Intel Core i5-11320H",
+          "ОЗУ": "16 ГБ",
+          "SSD": "512 ГБ",
+          "Экран": "15.6\" FHD IPS",
+          "ОС": "Без ОС"
+        },
+        "reviews": [
+          {
+            "id": "wr323",
+            "text": "На WB самая низкая цена на RedmiBook. Металлический корпус, 16 ГБ ОЗУ — для работы хватает. Xiaomi делают достойные ноуты.",
+            "rating": 4,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 29
+          },
+          {
+            "id": "wr324",
+            "text": "Бюджетный ноут с металлическим корпусом. Выглядит дороже, чем стоит. Для учёбы и офиса — отлично.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 17
+          },
+          {
+            "id": "wr325",
+            "text": "Хороший ноут за свои деньги. ОС нет, но Windows ставится легко. Батарея 7 часов. Экран нормальный.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 12
+          }
+        ]
+      },
+      {
+        "id": "wb_n008",
+        "name": "ASUS Vivobook 16 OLED",
+        "price": 66990,
+        "original_price": 76990,
+        "rating": 4.6,
+        "review_count": 650,
+        "url": "https://wb.ru/product/asus-vivobook16-oled-008",
+        "in_stock": true,
+        "seller_id": "wb_seller_asus",
+        "seller_name": "ASUS Store",
+        "attributes": {
+          "Процессор": "Intel Core i7-13700H",
+          "Оперативная память": "16 ГБ",
+          "Накопитель": "512 ГБ SSD",
+          "Экран": "16\" OLED 3200x2000",
+          "Видеокарта": "Intel Iris Xe",
+          "Вес": "1.88 кг"
+        },
+        "reviews": [
+          {
+            "id": "wr600",
+            "text": "Купил для жены-дизайнера — в восторге от экрана. OLED на ноутбуке за эти деньги — это подарок. Сборка качественная, клавиатура с подсветкой.",
+            "rating": 5,
+            "date": "2025-03-12",
+            "verified_purchase": true,
+            "helpful_count": 29
+          },
+          {
+            "id": "wr601",
+            "text": "Хороший ноутбук, но кулер шумноват под нагрузкой. Экран великолепный, производительность отличная. В целом — рекомендую.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 17
+          }
         ]
       }
     ],
@@ -104,10 +806,30 @@
         "in_stock": true,
         "seller_id": "wb_seller_samsung",
         "seller_name": "Samsung Store",
-        "attributes": {"Экран": "6.2\" Dynamic AMOLED 2X", "Процессор": "Exynos 2400", "ОЗУ": "8 ГБ", "Камера": "50 МП", "Батарея": "4000 мАч"},
+        "attributes": {
+          "Экран": "6.2\" Dynamic AMOLED 2X",
+          "Процессор": "Exynos 2400",
+          "ОЗУ": "8 ГБ",
+          "Камера": "50 МП",
+          "Батарея": "4000 мАч"
+        },
         "reviews": [
-          {"id": "wr030", "text": "На WB дешевле чем в официальном магазине. Телефон отличный, Galaxy AI функции полезные. Камера топ.", "rating": 5, "date": "2025-03-10", "verified_purchase": true, "helpful_count": 44},
-          {"id": "wr031", "text": "Флагман от Samsung, всё на уровне. Exynos не так плох как пишут, не греется. Батарея — единственная слабость.", "rating": 4, "date": "2025-02-18", "verified_purchase": true, "helpful_count": 21}
+          {
+            "id": "wr030",
+            "text": "На WB дешевле чем в официальном магазине. Телефон отличный, Galaxy AI функции полезные. Камера топ.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 44
+          },
+          {
+            "id": "wr031",
+            "text": "Флагман от Samsung, всё на уровне. Exynos не так плох как пишут, не греется. Батарея — единственная слабость.",
+            "rating": 4,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 21
+          }
         ]
       },
       {
@@ -121,10 +843,301 @@
         "in_stock": true,
         "seller_id": "wb_seller_realme",
         "seller_name": "Realme Official",
-        "attributes": {"Экран": "6.7\" AMOLED 120Hz", "Процессор": "Snapdragon 7s Gen 2", "ОЗУ": "12 ГБ", "Камера": "50 МП (перископ)", "Батарея": "5000 мАч"},
+        "attributes": {
+          "Экран": "6.7\" AMOLED 120Hz",
+          "Процессор": "Snapdragon 7s Gen 2",
+          "ОЗУ": "12 ГБ",
+          "Камера": "50 МП (перископ)",
+          "Батарея": "5000 мАч"
+        },
         "reviews": [
-          {"id": "wr032", "text": "Перископная камера за 30к — это круто. Зум 3х оптический реально работает. Экран красивый, батарея на 2 дня. Оболочка Realme UI нормальная, не напрягает.", "rating": 5, "date": "2025-03-03", "verified_purchase": true, "helpful_count": 35},
-          {"id": "wr033", "text": "Хороший телефон для своей цены. 12 ГБ ОЗУ — приложения не выгружаются. Камера днём отличная, ночью средне. Зарядка быстрая.", "rating": 4, "date": "2025-02-12", "verified_purchase": true, "helpful_count": 18}
+          {
+            "id": "wr032",
+            "text": "Перископная камера за 30к — это круто. Зум 3х оптический реально работает. Экран красивый, батарея на 2 дня. Оболочка Realme UI нормальная, не напрягает.",
+            "rating": 5,
+            "date": "2025-03-03",
+            "verified_purchase": true,
+            "helpful_count": 35
+          },
+          {
+            "id": "wr033",
+            "text": "Хороший телефон для своей цены. 12 ГБ ОЗУ — приложения не выгружаются. Камера днём отличная, ночью средне. Зарядка быстрая.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_s003",
+        "name": "Apple iPhone 15 128GB",
+        "attributes": {
+          "Экран": "6.1\" Super Retina XDR OLED",
+          "Процессор": "Apple A16 Bionic",
+          "ОЗУ": "6 ГБ",
+          "Камера": "48 МП + 12 МП",
+          "Батарея": "3877 мАч"
+        },
+        "price": 77990,
+        "original_price": 89990,
+        "rating": 4.8,
+        "review_count": 4200,
+        "url": "https://wildberries.ru/product/iphone-15-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_apple",
+        "seller_name": "Apple Reseller",
+        "reviews": [
+          {
+            "id": "wr218",
+            "text": "На WB дешевле чем в re:Store на 12к! iPhone 15 — отличный телефон. Камера 48 МП, USB-C, Dynamic Island. Работает быстро, батарея на день. Для большинства людей — лучший iPhone.",
+            "rating": 5,
+            "date": "2025-03-11",
+            "verified_purchase": true,
+            "helpful_count": 89
+          },
+          {
+            "id": "wr219",
+            "text": "Перешёл с Samsung S23. iOS после Android — другой мир. Всё плавно, без лагов. Камера снимает лучше. FaceTime с друзьями на iPhone — удобно. Минус — нельзя кастомизировать как Android.",
+            "rating": 4,
+            "date": "2025-02-24",
+            "verified_purchase": true,
+            "helpful_count": 52
+          },
+          {
+            "id": "wr220",
+            "text": "Жена довольна, я доволен. USB-C наконец-то, один кабель на всё. Камера отличная, портретный режим стал лучше. Батарея на день хватает. Apple есть Apple — работает безупречно.",
+            "rating": 5,
+            "date": "2025-02-05",
+            "verified_purchase": true,
+            "helpful_count": 34
+          },
+          {
+            "id": "wr221",
+            "text": "128 ГБ — мало, если снимаешь много видео. Но для обычного использования хватает. Телефон быстрый, камера супер. А16 Bionic не топовый, но скорости хватает с запасом.",
+            "rating": 4,
+            "date": "2025-01-15",
+            "verified_purchase": true,
+            "helpful_count": 25
+          }
+        ]
+      },
+      {
+        "id": "wb_s004",
+        "name": "POCO X6 Pro 5G 256GB",
+        "attributes": {
+          "Экран": "6.67\" AMOLED 120Hz",
+          "Процессор": "MediaTek Dimensity 8300 Ultra",
+          "ОЗУ": "8 ГБ",
+          "Камера": "64 МП",
+          "Батарея": "5000 мАч"
+        },
+        "price": 26490,
+        "original_price": 32990,
+        "rating": 4.5,
+        "review_count": 2340,
+        "url": "https://wildberries.ru/product/poco-x6-pro-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_poco",
+        "seller_name": "POCO Store",
+        "reviews": [
+          {
+            "id": "wr222",
+            "text": "На WB самая низкая цена на POCO X6 Pro! Телефон — бомба за свои деньги. Dimensity 8300 тянет всё. Экран AMOLED шикарный. 67W зарядка — за 40 минут 100%. Лучший бюджетный флагман.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 67
+          },
+          {
+            "id": "wr223",
+            "text": "Играю в PUBG на максималках — не лагает. Батарея 5000 мАч — на 2 дня. NFC для оплаты работает. Камера 64 МП — днём хорошо, ночью так себе. За 26к — лучше не найти.",
+            "rating": 5,
+            "date": "2025-02-19",
+            "verified_purchase": true,
+            "helpful_count": 43
+          },
+          {
+            "id": "wr224",
+            "text": "MIUI бесит рекламой, но отключается. В остальном — отличный телефон. Мощный, быстрый, красивый экран. За эту цену — убийца флагманов. Рекомендую всем, кто не хочет переплачивать.",
+            "rating": 4,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 29
+          }
+        ]
+      },
+      {
+        "id": "wb_s005",
+        "name": "Nothing Phone (2) 256GB",
+        "attributes": {
+          "Экран": "6.7\" OLED LTPO 120Hz",
+          "Процессор": "Snapdragon 8+ Gen 1",
+          "ОЗУ": "12 ГБ",
+          "Камера": "50 МП + 50 МП",
+          "Батарея": "4700 мАч"
+        },
+        "price": 38490,
+        "original_price": 49990,
+        "rating": 4.4,
+        "review_count": 670,
+        "url": "https://wildberries.ru/product/nothing-phone2-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_nothing",
+        "seller_name": "Nothing Official",
+        "reviews": [
+          {
+            "id": "wr225",
+            "text": "Уникальный дизайн — Glyph-подсветка реально крутая. Snapdragon 8+ Gen 1 мощный. Nothing OS чистая и быстрая, без мусора. Для тех, кто устал от Samsung и Xiaomi — отличная альтернатива.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr226",
+            "text": "Прозрачная задняя панель — вау-эффект. Все спрашивают что за телефон. Производительность на уровне флагманов прошлого года. Камера хорошая, но не топовая. NFC есть, зарядка беспроводная.",
+            "rating": 4,
+            "date": "2025-02-13",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr227",
+            "text": "Nothing Phone 2 — лучший телефон для тех, кто ценит дизайн и чистый Android. Обновления приходят быстро. 12 ГБ ОЗУ — приложения не выгружаются. Батарея на день.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_s006",
+        "name": "Google Pixel 8 128GB",
+        "price": 51490,
+        "original_price": 59990,
+        "rating": 4.7,
+        "review_count": 780,
+        "url": "https://wildberries.ru/product/pixel-8-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_google",
+        "seller_name": "Google Store",
+        "attributes": {
+          "Экран": "6.2\" OLED 120Hz",
+          "Процессор": "Tensor G3",
+          "ОЗУ": "8 ГБ",
+          "Камера": "50 МП + 12 МП",
+          "Батарея": "4575 мАч"
+        },
+        "reviews": [
+          {
+            "id": "wr330",
+            "text": "На WB дешевле чем на Яндексе. Pixel 8 — лучшая камера и чистый Android. 7 лет обновлений. AI-фишки Google — реально полезные.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr331",
+            "text": "Камера невероятная. Ночной режим, портрет — всё на высоте. Android чистый, никакого мусора. Tensor G3 быстрый.",
+            "rating": 5,
+            "date": "2025-02-16",
+            "verified_purchase": true,
+            "helpful_count": 29
+          },
+          {
+            "id": "wr332",
+            "text": "Хороший телефон, но Google Pay в России не работает. В остальном — идеален. Камера, экран, производительность — всё топ.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_s007",
+        "name": "OnePlus 12R 256GB",
+        "price": 44990,
+        "original_price": 54990,
+        "rating": 4.6,
+        "review_count": 560,
+        "url": "https://wildberries.ru/product/oneplus-12r-007",
+        "in_stock": true,
+        "seller_id": "wb_seller_oneplus",
+        "seller_name": "OnePlus Store",
+        "attributes": {
+          "Экран": "6.78\" AMOLED 120Hz",
+          "Процессор": "Snapdragon 8 Gen 2",
+          "ОЗУ": "16 ГБ",
+          "Камера": "50 МП",
+          "Батарея": "5500 мАч"
+        },
+        "reviews": [
+          {
+            "id": "wr333",
+            "text": "Snapdragon 8 Gen 2 + 16 ГБ ОЗУ за 45к — убийца флагманов! Батарея 5500 мАч — на 2 дня. Зарядка 100W — за 26 минут полный заряд.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr334",
+            "text": "OnePlus 12R — скрытый гем. Производительность как у Samsung S24, цена вдвое ниже. OxygenOS чистая. Рекомендую.",
+            "rating": 5,
+            "date": "2025-02-13",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr335",
+            "text": "Камера хорошая, но не уровень Pixel или Samsung S24. Зато скорость, батарея и зарядка — лучшие в классе. NFC есть.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_s008",
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 97990,
+        "original_price": 109990,
+        "rating": 4.8,
+        "review_count": 3800,
+        "url": "https://wb.ru/product/samsung-s24-ultra-008",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Процессор": "Snapdragon 8 Gen 3",
+          "Оперативная память": "12 ГБ",
+          "Накопитель": "256 ГБ",
+          "Экран": "6.8\" Dynamic AMOLED 2X",
+          "Камера": "200 МП + 12 МП + 50 МП + 10 МП",
+          "Батарея": "5000 мАч"
+        },
+        "reviews": [
+          {
+            "id": "wr602",
+            "text": "Лучший Android-флагман. Камера, производительность, экран — всё на 10 из 10. AI функции реально полезные, не маркетинг. S Pen незаменим для заметок.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 55
+          },
+          {
+            "id": "wr603",
+            "text": "Перешёл с iPhone 15 Pro Max — не жалею. Экран ярче, камера детальнее, S Pen — уникальная фишка. Единственный минус — экосистема Apple была удобнее.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 38
+          }
         ]
       }
     ],
@@ -140,11 +1153,38 @@
         "in_stock": true,
         "seller_id": "wb_seller_xiaomi",
         "seller_name": "Xiaomi Official",
-        "attributes": {"Тип": "робот-пылесос", "Влажная уборка": "да", "Мощность": "4000 Па", "Навигация": "LiDAR", "Время работы": "120 мин"},
+        "attributes": {
+          "Тип": "робот-пылесос",
+          "Влажная уборка": "да",
+          "Мощность": "4000 Па",
+          "Навигация": "LiDAR",
+          "Время работы": "120 мин"
+        },
         "reviews": [
-          {"id": "wr040", "text": "Отличный бюджетный робот-пылесос с самоочисткой. Для квартиры 50м² работает идеально. Влажная уборка базовая, но пыль собирает. Приложение Mi Home удобное.", "rating": 5, "date": "2025-03-07", "verified_purchase": true, "helpful_count": 55},
-          {"id": "wr041", "text": "Хороший робот за свои деньги. Навигация точная, не бьётся о мебель. Влажная уборка так себе, но сухая уборка на 5. Самоочистка пылесборника — реально удобно.", "rating": 4, "date": "2025-02-20", "verified_purchase": true, "helpful_count": 30},
-          {"id": "wr042", "text": "Для двухкомнатной квартиры хватает. Шумит средне. Ковры чистит нормально, но высокие пороги не переезжает.", "rating": 4, "date": "2025-01-25", "verified_purchase": true, "helpful_count": 16}
+          {
+            "id": "wr040",
+            "text": "Отличный бюджетный робот-пылесос с самоочисткой. Для квартиры 50м² работает идеально. Влажная уборка базовая, но пыль собирает. Приложение Mi Home удобное.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 55
+          },
+          {
+            "id": "wr041",
+            "text": "Хороший робот за свои деньги. Навигация точная, не бьётся о мебель. Влажная уборка так себе, но сухая уборка на 5. Самоочистка пылесборника — реально удобно.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 30
+          },
+          {
+            "id": "wr042",
+            "text": "Для двухкомнатной квартиры хватает. Шумит средне. Ковры чистит нормально, но высокие пороги не переезжает.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
         ]
       },
       {
@@ -158,10 +1198,3390 @@
         "in_stock": true,
         "seller_id": "wb_seller_dreame",
         "seller_name": "Dreame Store",
-        "attributes": {"Тип": "робот-пылесос", "Влажная уборка": "да", "Мощность": "7000 Па", "Навигация": "LiDAR", "Время работы": "160 мин"},
+        "attributes": {
+          "Тип": "робот-пылесос",
+          "Влажная уборка": "да",
+          "Мощность": "7000 Па",
+          "Навигация": "LiDAR",
+          "Время работы": "160 мин"
+        },
         "reviews": [
-          {"id": "wr043", "text": "На WB дешевле чем на Ozon! Робот отличный — мощный, тихий, умный. Влажная уборка лучше чем у Xiaomi. LiDAR строит точную карту.", "rating": 5, "date": "2025-03-01", "verified_purchase": true, "helpful_count": 24},
-          {"id": "wr044", "text": "Пользуюсь 2 месяца — доволен. Убирает каждый день по расписанию. Кот его уже не боится. Пыль собирает хорошо, швабра моет средне.", "rating": 4, "date": "2025-02-10", "verified_purchase": true, "helpful_count": 17}
+          {
+            "id": "wr043",
+            "text": "На WB дешевле чем на Ozon! Робот отличный — мощный, тихий, умный. Влажная уборка лучше чем у Xiaomi. LiDAR строит точную карту.",
+            "rating": 5,
+            "date": "2025-03-01",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr044",
+            "text": "Пользуюсь 2 месяца — доволен. Убирает каждый день по расписанию. Кот его уже не боится. Пыль собирает хорошо, швабра моет средне.",
+            "rating": 4,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 17
+          }
+        ]
+      },
+      {
+        "id": "wb_v003",
+        "name": "Dyson V15 Detect Absolute Беспроводной",
+        "attributes": {
+          "Тип": "вертикальный беспроводной",
+          "Мощность всасывания": "230 AW",
+          "Время работы": "60 мин",
+          "Лазерный датчик": "да",
+          "Дисплей": "LCD"
+        },
+        "price": 52990,
+        "original_price": 64990,
+        "rating": 4.8,
+        "review_count": 1560,
+        "url": "https://wildberries.ru/product/dyson-v15-detect-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_dyson",
+        "seller_name": "Dyson Official",
+        "reviews": [
+          {
+            "id": "wr228",
+            "text": "Dyson V15 — лучший беспроводной пылесос. Лазер подсвечивает пыль — гениально! После уборки дисплей показывает сколько собрал. Мощность огромная. На WB дешевле чем на сайте Dyson.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 72
+          },
+          {
+            "id": "wr229",
+            "text": "Перешёл с V8 — разница колоссальная. Мощность, автономность, фильтрация — всё выросло. Лазер для пыли — не гimmick, реально помогает убирать тщательнее. Тяжеловат, но мощный.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr230",
+            "text": "Дорого, но это Dyson. Качество на высоте. HEPA-фильтр — для аллергиков спасение. 60 минут в эко — хватает на 3-комнатную. В турбо — 8 минут. Зарядка 4 часа — долго.",
+            "rating": 4,
+            "date": "2025-01-30",
+            "verified_purchase": true,
+            "helpful_count": 33
+          }
+        ]
+      },
+      {
+        "id": "wb_v004",
+        "name": "Ecovacs Deebot T30 Omni Робот-пылесос",
+        "attributes": {
+          "Тип": "робот-пылесос",
+          "Влажная уборка": "да, поднимаемая швабра",
+          "Мощность": "11000 Па",
+          "Навигация": "LiDAR + камера",
+          "Время работы": "200 мин"
+        },
+        "price": 57990,
+        "original_price": 69990,
+        "rating": 4.7,
+        "review_count": 450,
+        "url": "https://wildberries.ru/product/ecovacs-t30-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_ecovacs",
+        "seller_name": "Ecovacs Store",
+        "reviews": [
+          {
+            "id": "wr231",
+            "text": "Мощнейший робот — 11000 Па! Ковры чистит как промышленный пылесос. Швабра поднимается автоматически на коврах. Самоочистка горячей водой. За эти деньги — лучший робот 2025.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 41
+          },
+          {
+            "id": "wr232",
+            "text": "Купил вместо Roborock — не пожалел. Ecovacs T30 моет лучше, сосёт мощнее. Навигация точная, обходит все препятствия. База громоздкая, но функциональная.",
+            "rating": 5,
+            "date": "2025-02-16",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr233",
+            "text": "Отличный робот, но приложение Ecovacs иногда глючит. Сам робот работает безупречно. Влажная уборка намного лучше чем у конкурентов. LiDAR + камера = идеальная навигация.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_v005",
+        "name": "Samsung Jet Bot AI+ VR50T95735W Робот-пылесос",
+        "attributes": {
+          "Тип": "робот-пылесос",
+          "Влажная уборка": "нет",
+          "Мощность": "5000 Па",
+          "Навигация": "LiDAR + камера AI",
+          "Самоочистка": "Clean Station"
+        },
+        "price": 47990,
+        "original_price": 59990,
+        "rating": 4.2,
+        "review_count": 780,
+        "url": "https://wildberries.ru/product/samsung-jet-bot-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "reviews": [
+          {
+            "id": "wr234",
+            "text": "AI-навигация реально работает — обходит провода, тапки, игрушки. Clean Station — удобно, мусор не нужно вытряхивать. Минус — нет влажной уборки. Для сухой уборки — отличный робот.",
+            "rating": 4,
+            "date": "2025-03-03",
+            "verified_purchase": true,
+            "helpful_count": 27
+          },
+          {
+            "id": "wr235",
+            "text": "Интеграция с SmartThings — управляю роботом через умную колонку. Для экосистемы Samsung — идеально. Убирает хорошо, но за эту цену хотелось бы влажную уборку.",
+            "rating": 4,
+            "date": "2025-02-11",
+            "verified_purchase": true,
+            "helpful_count": 18
+          },
+          {
+            "id": "wr236",
+            "text": "Нормальный робот, но переоценённый. За те же деньги Ecovacs или Dreame предлагают больше. Samsung берут за бренд и экосистему. Уборка хорошая, но без мытья.",
+            "rating": 3,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 32
+          }
+        ]
+      },
+      {
+        "id": "wb_p006",
+        "name": "Roborock S8 Pro Ultra",
+        "price": 82990,
+        "original_price": 99990,
+        "rating": 4.7,
+        "review_count": 1340,
+        "url": "https://wb.ru/product/roborock-s8-pro-ultra-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_roborock",
+        "seller_name": "Roborock Store",
+        "attributes": {
+          "Тип": "робот-пылесос",
+          "Мощность всасывания": "6000 Па",
+          "Навигация": "LiDAR + камера",
+          "Док-станция": "самоочистка + мойка + сушка",
+          "Время работы": "180 мин"
+        },
+        "reviews": [
+          {
+            "id": "wr604",
+            "text": "Заменил Xiaomi Roborock S7 — разница огромная. Мощность выше, навигация точнее, тряпка реально моет. Док-станция всё делает сама.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 44
+          },
+          {
+            "id": "wr605",
+            "text": "За 80к получаете полностью автономную уборку. Настроил расписание — забыл. Раз в месяц меняю пакет в контейнере. Лучшая покупка года.",
+            "rating": 5,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 31
+          }
+        ]
+      }
+    ],
+    "телевизоры": [
+      {
+        "id": "wb_t001",
+        "name": "Samsung QE55Q80C QLED 55\"",
+        "price": 62990,
+        "original_price": 79990,
+        "rating": 4.8,
+        "review_count": 1120,
+        "url": "https://wildberries.ru/product/samsung-qe55q80c-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Диагональ": "55\"",
+          "Разрешение": "4K UHD",
+          "Тип матрицы": "QLED",
+          "Частота обновления": "120 Гц",
+          "Smart TV": "Tizen"
+        },
+        "reviews": [
+          {
+            "id": "wr050",
+            "text": "Картинка просто огонь! QLED даёт сочные цвета, HDR отрабатывает на ура. Для игр на PS5 — идеально, 120 Гц без проблем. На WB взял дешевле чем на Ozon на 5000.",
+            "rating": 5,
+            "date": "2025-03-12",
+            "verified_purchase": true,
+            "helpful_count": 67
+          },
+          {
+            "id": "wr051",
+            "text": "Отличный телевизор для гейминга. VRR, ALLM — всё поддерживается. Картинка яркая, углы обзора хорошие. Tizen удобный, есть все приложения.",
+            "rating": 5,
+            "date": "2025-02-28",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr052",
+            "text": "Смотрю фильмы и сериалы — качество изображения на высоте. Чёрный не идеальный (не OLED всё-таки), но для светлой комнаты QLED лучше. Звук встроенный средний, нужен саундбар.",
+            "rating": 4,
+            "date": "2025-01-15",
+            "verified_purchase": true,
+            "helpful_count": 29
+          }
+        ]
+      },
+      {
+        "id": "wb_t002",
+        "name": "Hisense 55U7KQ ULED 55\"",
+        "price": 39990,
+        "original_price": 49990,
+        "rating": 4.5,
+        "review_count": 890,
+        "url": "https://wildberries.ru/product/hisense-55u7kq-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_hisense",
+        "seller_name": "Hisense Official",
+        "attributes": {
+          "Диагональ": "55\"",
+          "Разрешение": "4K UHD",
+          "Тип матрицы": "ULED (Mini LED)",
+          "Частота обновления": "144 Гц",
+          "Smart TV": "VIDAA"
+        },
+        "reviews": [
+          {
+            "id": "wr053",
+            "text": "За 40к — это лучший телевизор. Mini LED подсветка даёт отличный контраст, 144 Гц для игр — вообще сказка. Картинка реально хорошая для своей цены. Единственный минус — VIDAA бедноват на приложения.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 54
+          },
+          {
+            "id": "wr054",
+            "text": "Взял вместо Samsung и не жалею. Mini LED делает своё дело — локальное затемнение работает отлично. VIDAA — простая система, но YouTube, Кинопоиск, Okko есть. Для большинства хватит.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr055",
+            "text": "Хороший ТВ, но VIDAA после Tizen кажется убогой. Нет некоторых приложений, приходится через HDMI стик подключать. Зато картинка — на уровне телевизоров за 60-70к.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 21
+          }
+        ]
+      },
+      {
+        "id": "wb_t003",
+        "name": "LG OLED55C3 55\"",
+        "price": 87990,
+        "original_price": 109990,
+        "rating": 4.9,
+        "review_count": 430,
+        "url": "https://wildberries.ru/product/lg-oled55c3-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_lg",
+        "seller_name": "LG Official Store",
+        "attributes": {
+          "Диагональ": "55\"",
+          "Разрешение": "4K UHD",
+          "Тип матрицы": "OLED",
+          "Частота обновления": "120 Гц",
+          "Smart TV": "webOS"
+        },
+        "reviews": [
+          {
+            "id": "wr056",
+            "text": "OLED — это другой мир. После обычного LED даже не верится, что такая картинка возможна. Абсолютный чёрный, бесконечная контрастность. Для кино в тёмной комнате — ничего лучше нет.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr057",
+            "text": "Идеальный телевизор для домашнего кинотеатра. webOS удобная, Dolby Vision и Atmos поддерживаются. Для игр 4 порта HDMI 2.1. Минус — яркость ниже чем у QLED в солнечной комнате.",
+            "rating": 5,
+            "date": "2025-02-19",
+            "verified_purchase": true,
+            "helpful_count": 33
+          },
+          {
+            "id": "wr058",
+            "text": "Купил на WB, цена была ниже чем в других магазинах. Телевизор без нареканий — LG C3 заслуженно считается эталоном. Переживал за выгорание, но за 3 месяца никаких проблем.",
+            "rating": 5,
+            "date": "2025-01-10",
+            "verified_purchase": true,
+            "helpful_count": 25
+          }
+        ]
+      },
+      {
+        "id": "wb_t004",
+        "name": "Sony Bravia XR 55A80L OLED 55\"",
+        "attributes": {
+          "Диагональ": "55\"",
+          "Разрешение": "4K UHD",
+          "Тип матрицы": "OLED",
+          "Smart TV": "Google TV",
+          "Частота обновления": "120 Гц",
+          "Звук": "Acoustic Surface Audio+"
+        },
+        "price": 97990,
+        "original_price": 119990,
+        "rating": 4.9,
+        "review_count": 280,
+        "url": "https://wildberries.ru/product/sony-a80l-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_sony",
+        "seller_name": "Sony Official",
+        "reviews": [
+          {
+            "id": "wr237",
+            "text": "Sony OLED — это искусство. Acoustic Surface Audio — звук из экрана, это надо слышать! Картинка невероятная, процессор XR творит чудеса. Для домашнего кинотеатра — лучший выбор.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 52
+          },
+          {
+            "id": "wr238",
+            "text": "Сравнивал с LG C3 в магазине — Sony A80L лучше в обработке движения и цветах. Звук вообще несравним — у Sony из коробки как саундбар. Дороже, но стоит каждого рубля.",
+            "rating": 5,
+            "date": "2025-02-21",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr239",
+            "text": "Google TV быстрее чем webOS. Chromecast встроенный. Для PS5 — идеально, HDMI 2.1 с VRR. Картинка OLED безупречна. Единственное — цена.",
+            "rating": 5,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      },
+      {
+        "id": "wb_t005",
+        "name": "Philips 55PUS8808 Ambilight 55\"",
+        "attributes": {
+          "Диагональ": "55\"",
+          "Разрешение": "4K UHD",
+          "Тип матрицы": "LED",
+          "Smart TV": "Google TV",
+          "Частота обновления": "120 Гц",
+          "Ambilight": "3-сторонний"
+        },
+        "price": 49990,
+        "original_price": 62990,
+        "rating": 4.5,
+        "review_count": 560,
+        "url": "https://wildberries.ru/product/philips-pus8808-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_philips",
+        "seller_name": "Philips Official",
+        "reviews": [
+          {
+            "id": "wr240",
+            "text": "Ambilight — главная фишка! Подсветка стены меняется в такт картинке. Вечером смотреть кино — полное погружение. Картинка хорошая, 120 Гц для игр. На WB дешевле чем везде.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 43
+          },
+          {
+            "id": "wr241",
+            "text": "Для своей цены — отличный телевизор. Ambilight уникальная технология, больше никто так не делает. Картинка не OLED, но для LED — очень достойная. Google TV удобный.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 27
+          },
+          {
+            "id": "wr242",
+            "text": "Купил из-за Ambilight — не разочаровался. Реально снижает нагрузку на глаза. Картинка приятная, звук средний. Для кино и сериалов — рекомендую.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_t007",
+        "name": "LG OLED55C4 55\"",
+        "price": 107990,
+        "original_price": 134990,
+        "rating": 4.8,
+        "review_count": 780,
+        "url": "https://wb.ru/product/lg-oled55c4-007",
+        "in_stock": true,
+        "seller_id": "wb_seller_lg",
+        "seller_name": "LG Store",
+        "attributes": {
+          "Диагональ": "55\"",
+          "Разрешение": "4K UHD",
+          "Тип матрицы": "OLED evo",
+          "Процессор": "α9 AI Gen7",
+          "HDMI 2.1": "4 порта",
+          "Частота": "120 Гц"
+        },
+        "reviews": [
+          {
+            "id": "wr606",
+            "text": "Для PS5 и Xbox — идеальный телевизор. 4K@120fps, VRR, ALLM — всё есть. Задержка ввода минимальная. Dolby Vision Gaming — красота.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr607",
+            "text": "Третий год с OLED C серией — выгорания нет. Пиксели обновляются автоматически. Картинка как в первый день. Рекомендую.",
+            "rating": 5,
+            "date": "2025-02-16",
+            "verified_purchase": true,
+            "helpful_count": 33
+          }
+        ]
+      }
+    ],
+    "планшеты": [
+      {
+        "id": "wb_p001",
+        "name": "Apple iPad Air M2 11\" 128GB",
+        "price": 52990,
+        "original_price": 59990,
+        "rating": 4.8,
+        "review_count": 890,
+        "url": "https://wildberries.ru/product/apple-ipad-air-m2-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_apple",
+        "seller_name": "Apple Reseller Official",
+        "attributes": {
+          "Процессор": "Apple M2",
+          "Экран": "11\" Liquid Retina IPS",
+          "Память": "128 ГБ",
+          "ОЗУ": "8 ГБ",
+          "ОС": "iPadOS"
+        },
+        "reviews": [
+          {
+            "id": "wr060",
+            "text": "M2 в iPad Air — это мощь. Рисую в Procreate, монтирую видео в LumaFusion — всё летает. Экран красивый, Apple Pencil 2 поддерживается. На WB дешевле чем в re:Store.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 56
+          },
+          {
+            "id": "wr061",
+            "text": "Перешёл с iPad 9 поколения — разница колоссальная. Скорость, экран, динамики — всё лучше. Для учёбы и работы идеален. Единственное — 128 ГБ маловато, лучше брать 256.",
+            "rating": 5,
+            "date": "2025-02-22",
+            "verified_purchase": true,
+            "helpful_count": 34
+          },
+          {
+            "id": "wr062",
+            "text": "Отличный планшет, но iPadOS всё ещё ограничена. Нет полноценной файловой системы, многозадачность хуже чем на ноуте. Как медиа-устройство и для рисования — 10/10.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      },
+      {
+        "id": "wb_p002",
+        "name": "Huawei MatePad 11.5\" 128GB",
+        "price": 24990,
+        "original_price": 29990,
+        "rating": 4.3,
+        "review_count": 560,
+        "url": "https://wildberries.ru/product/huawei-matepad-115-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_huawei",
+        "seller_name": "Huawei Store",
+        "attributes": {
+          "Процессор": "Snapdragon 7 Gen 1",
+          "Экран": "11.5\" 120Hz IPS",
+          "Память": "128 ГБ",
+          "ОЗУ": "6 ГБ",
+          "ОС": "HarmonyOS 3.1"
+        },
+        "reviews": [
+          {
+            "id": "wr063",
+            "text": "Экран 120 Гц — плавный и яркий, для просмотра видео и чтения идеально. Snapdragon 7 Gen 1 тянет всё без тормозов. Но HarmonyOS — это боль: нет Google-сервисов, AppGallery бедный.",
+            "rating": 4,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 41
+          },
+          {
+            "id": "wr064",
+            "text": "За 25к — очень достойный планшет. Металлический корпус, хорошие динамики, быстрая зарядка. Для YouTube, книг и браузера — отлично. Игры тоже идут нормально.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr065",
+            "text": "Купил для ребёнка. Экран большой, яркий. Установил через APK нужные приложения — работают. Но без Google Play неудобно, приходится искать APK на сайтах.",
+            "rating": 3,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_p003",
+        "name": "Samsung Galaxy Tab S9 FE 128GB",
+        "price": 31490,
+        "original_price": 39990,
+        "rating": 4.5,
+        "review_count": 670,
+        "url": "https://wildberries.ru/product/samsung-tab-s9fe-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Процессор": "Exynos 1380",
+          "Экран": "10.9\" 90Hz IPS",
+          "Память": "128 ГБ",
+          "ОЗУ": "6 ГБ",
+          "ОС": "Android 14, One UI 6"
+        },
+        "reviews": [
+          {
+            "id": "wr066",
+            "text": "S Pen в комплекте — огромный плюс. Для заметок и рисования отлично. Экран хороший, не AMOLED, но цвета приятные. Samsung DeX режим удобен для работы.",
+            "rating": 5,
+            "date": "2025-03-02",
+            "verified_purchase": true,
+            "helpful_count": 37
+          },
+          {
+            "id": "wr067",
+            "text": "Хороший планшет среднего класса. S Pen реагирует моментально, задержки нет. Батарея на 2 дня при активном использовании. IP68 — можно не бояться воды.",
+            "rating": 4,
+            "date": "2025-02-08",
+            "verified_purchase": true,
+            "helpful_count": 23
+          },
+          {
+            "id": "wr068",
+            "text": "Взял на WB со скидкой, дешевле чем на Ozon. Планшет добротный, для мультимедиа и заметок — самое то. Exynos не самый быстрый, но для повседневных задач хватает.",
+            "rating": 4,
+            "date": "2025-01-12",
+            "verified_purchase": true,
+            "helpful_count": 15
+          }
+        ]
+      },
+      {
+        "id": "wb_p004",
+        "name": "OnePlus Pad 2 128GB",
+        "attributes": {
+          "Процессор": "Snapdragon 8 Gen 3",
+          "Экран": "12.1\" 3K IPS 144Hz",
+          "Память": "128 ГБ",
+          "ОЗУ": "8 ГБ",
+          "ОС": "OxygenOS (Android 14)"
+        },
+        "price": 38490,
+        "original_price": 49990,
+        "rating": 4.5,
+        "review_count": 450,
+        "url": "https://wildberries.ru/product/oneplus-pad2-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_oneplus",
+        "seller_name": "OnePlus Store",
+        "reviews": [
+          {
+            "id": "wr243",
+            "text": "Самый мощный Android-планшет! Snapdragon 8 Gen 3 — всё летает. Экран 3K 144 Гц гигантский и плавный. Для игр и мультимедиа — идеален. На WB нашёл дешевле на 2к чем на Ozon.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 39
+          },
+          {
+            "id": "wr244",
+            "text": "OxygenOS на планшете — быстрая и чистая. Батарея 9510 мАч — на 2 дня активного использования. Зарядка 67W за час. Динамики мощные. Для Android-мира — лучший планшет.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 26
+          },
+          {
+            "id": "wr245",
+            "text": "Хороший планшет, но мало оптимизированных Android-приложений для планшета. Производительность топ, экран красивый. Стилус и клавиатура покупаются отдельно — дорого.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 17
+          }
+        ]
+      },
+      {
+        "id": "wb_p005",
+        "name": "Apple iPad 10 поколения 64GB",
+        "attributes": {
+          "Процессор": "Apple A14 Bionic",
+          "Экран": "10.9\" Liquid Retina IPS",
+          "Память": "64 ГБ",
+          "ОС": "iPadOS",
+          "Разъём": "USB-C"
+        },
+        "price": 33990,
+        "original_price": 39990,
+        "rating": 4.6,
+        "review_count": 3400,
+        "url": "https://wildberries.ru/product/ipad-10-gen-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_apple",
+        "seller_name": "Apple Reseller",
+        "reviews": [
+          {
+            "id": "wr246",
+            "text": "Базовый iPad за 34к на WB — отличная цена! A14 Bionic хватает для всего. USB-C удобно. Для YouTube, Netflix, учёбы — лучший планшет. Apple экосистема работает идеально.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr247",
+            "text": "Купил маме — легко разобралась. Экран большой, яркий. Для чтения, видеозвонков, рецептов — идеально. Батарея на весь день. 64 ГБ хватает, если не забивать фильмами.",
+            "rating": 5,
+            "date": "2025-02-19",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr248",
+            "text": "Отличный планшет для детей. Надёжный, приложений море, родительский контроль есть. Apple Pencil 1-го поколения — для рисования нормально. Жаль что не Pro Motion 120 Гц.",
+            "rating": 4,
+            "date": "2025-01-15",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_pl006",
+        "name": "Samsung Galaxy Tab S9 FE",
+        "price": 33490,
+        "original_price": 42990,
+        "rating": 4.5,
+        "review_count": 1500,
+        "url": "https://wb.ru/product/samsung-tab-s9-fe-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Процессор": "Exynos 1380",
+          "Оперативная память": "6 ГБ",
+          "Накопитель": "128 ГБ",
+          "Экран": "10.9\" TFT LCD 2304x1440",
+          "Батарея": "8000 мАч",
+          "Стилус": "S Pen в комплекте"
+        },
+        "reviews": [
+          {
+            "id": "wr608",
+            "text": "Купил ребёнку для школы — доволен. Прочный корпус, S Pen удобный для записей. Samsung Kids — родительский контроль из коробки.",
+            "rating": 4,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 35
+          },
+          {
+            "id": "wr609",
+            "text": "За 33к — лучший планшет с пером. iPad за эту цену S Pen не даёт. Экран не AMOLED, но для большинства задач хватает.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      }
+    ],
+    "умные часы": [
+      {
+        "id": "wb_w001",
+        "name": "Samsung Galaxy Watch 6 44mm",
+        "price": 21490,
+        "original_price": 27990,
+        "rating": 4.6,
+        "review_count": 1200,
+        "url": "https://wildberries.ru/product/samsung-watch6-44mm-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Экран": "1.5\" Super AMOLED",
+          "ОС": "Wear OS 4",
+          "Батарея": "425 мАч",
+          "Водозащита": "5ATM + IP68",
+          "Датчики": "пульс, SpO2, ЭКГ, температура"
+        },
+        "reviews": [
+          {
+            "id": "wr070",
+            "text": "Лучшие часы для Android-смартфонов. Wear OS 4 работает плавно, Google-приложения все на месте. Samsung Health отслеживает сон, стресс, тренировки. Экран яркий, видно на солнце.",
+            "rating": 5,
+            "date": "2025-03-11",
+            "verified_purchase": true,
+            "helpful_count": 52
+          },
+          {
+            "id": "wr071",
+            "text": "Обновился с Watch 4 — экран стал больше, безель тоньше. Батарея на 1.5 дня при активном использовании. Wear OS наконец-то стала быстрой. NFC оплата работает.",
+            "rating": 5,
+            "date": "2025-02-24",
+            "verified_purchase": true,
+            "helpful_count": 35
+          },
+          {
+            "id": "wr072",
+            "text": "Хорошие часы, но батарея слабовата. При включённом Always-On Display хватает на день. Если выключить — 2 дня. Для спорта удобные, GPS точный.",
+            "rating": 4,
+            "date": "2025-01-30",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_w002",
+        "name": "Huawei Watch GT 4 46mm",
+        "price": 18990,
+        "original_price": 22990,
+        "rating": 4.4,
+        "review_count": 1670,
+        "url": "https://wildberries.ru/product/huawei-watch-gt4-46mm-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_huawei",
+        "seller_name": "Huawei Store",
+        "attributes": {
+          "Экран": "1.43\" AMOLED",
+          "ОС": "HarmonyOS",
+          "Батарея": "524 мАч",
+          "Водозащита": "5ATM",
+          "Датчики": "пульс, SpO2, температура кожи"
+        },
+        "reviews": [
+          {
+            "id": "wr073",
+            "text": "Батарея — главный козырь. 14 дней реально, проверено. Заряжаю раз в две недели, забываю что часы нужно заряжать. Дизайн премиальный, на руке смотрится дорого.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 73
+          },
+          {
+            "id": "wr074",
+            "text": "Красивые часы с отличным экраном. AMOLED яркий, Always-On Display не жрёт батарею. Минус — нет сторонних приложений, магазин Huawei пустой. Для уведомлений и спорта — отлично.",
+            "rating": 4,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr075",
+            "text": "Пользуюсь с Huawei телефоном — интеграция хорошая. Здоровье мониторит: пульс, сон, стресс. Для бега GPS быстро ловит. Но ответить на сообщение с часов нельзя — только прочитать.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr076",
+            "text": "Дизайн шикарный, выглядит как классические часы. Но функционал ограничен по сравнению с Apple Watch или Galaxy Watch. Если нужна автономность — GT 4 лучший выбор.",
+            "rating": 4,
+            "date": "2025-01-05",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      },
+      {
+        "id": "wb_w003",
+        "name": "Amazfit GTR 4",
+        "price": 13990,
+        "original_price": 18990,
+        "rating": 4.4,
+        "review_count": 2800,
+        "url": "https://wildberries.ru/product/amazfit-gtr4-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_amazfit",
+        "seller_name": "Amazfit Official",
+        "attributes": {
+          "Экран": "1.43\" AMOLED",
+          "ОС": "Zepp OS",
+          "Батарея": "475 мАч",
+          "Водозащита": "5ATM",
+          "Датчики": "пульс, SpO2, стресс"
+        },
+        "reviews": [
+          {
+            "id": "wr077",
+            "text": "За 14к — шикарные часы. AMOLED экран яркий, батарея на 12-14 дней. Для бега и велосипеда — отлично, GPS точный. Zepp OS простая но функциональная.",
+            "rating": 5,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 61
+          },
+          {
+            "id": "wr078",
+            "text": "Лучшие часы в бюджетном сегменте. Выглядят дорого, работают долго. Пульсометр точный, сравнивал с нагрудным датчиком. Приложение Zepp удобное.",
+            "rating": 5,
+            "date": "2025-02-11",
+            "verified_purchase": true,
+            "helpful_count": 39
+          },
+          {
+            "id": "wr079",
+            "text": "Хорошие часы, но Zepp OS бедная на приложения. Музыку оффлайн слушать можно, но Spotify нет. Для уведомлений и фитнеса — вполне достаточно.",
+            "rating": 4,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      },
+      {
+        "id": "wb_w004",
+        "name": "Xiaomi Watch 2 Pro",
+        "attributes": {
+          "Экран": "1.43\" AMOLED",
+          "ОС": "Wear OS (Google)",
+          "Батарея": "495 мАч",
+          "Водозащита": "5 ATM",
+          "Датчики": "пульс, SpO2, GPS, NFC"
+        },
+        "price": 18990,
+        "original_price": 24990,
+        "rating": 4.3,
+        "review_count": 1120,
+        "url": "https://wildberries.ru/product/xiaomi-watch-2-pro-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Official",
+        "reviews": [
+          {
+            "id": "wr249",
+            "text": "Наконец-то Xiaomi на Wear OS! Google-приложения, Play Store, нормальные уведомления. Экран AMOLED красивый. GPS точный для бега. На WB — самая низкая цена. Минус — батарея 2 дня.",
+            "rating": 4,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr250",
+            "text": "Хорошие часы за свои деньги на Wear OS. Snapdragon W5+ Gen 1 — работают плавно. NFC есть, но Google Pay в России не работает. Для фитнеса и уведомлений — отлично.",
+            "rating": 4,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr251",
+            "text": "Wear OS 3.5 — наконец-то нормальная ОС от Xiaomi. После Amazfit — небо и земля по функционалу. Но автономность упала — с 14 дней до 2. Trade-off. Для активных пользователей — ок.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_w005",
+        "name": "TicWatch Pro 5 Enduro",
+        "attributes": {
+          "Экран": "1.43\" AMOLED + LCD",
+          "ОС": "Wear OS 3.5",
+          "Батарея": "628 мАч",
+          "Водозащита": "5 ATM",
+          "Датчики": "пульс, SpO2, компас, барометр"
+        },
+        "price": 27990,
+        "original_price": 34990,
+        "rating": 4.5,
+        "review_count": 340,
+        "url": "https://wildberries.ru/product/ticwatch-pro5-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_mobvoi",
+        "seller_name": "Mobvoi Official",
+        "reviews": [
+          {
+            "id": "wr252",
+            "text": "Двойной экран — гениальная идея! AMOLED для приложений, LCD для времени и пульса — батарея 4 дня, а не 1.5 как у других Wear OS часов. Snapdragon W5+ Gen 1 — быстрый.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr253",
+            "text": "Лучшие Wear OS часы по автономности. 4 дня реально, с AOD на LCD-экране — до 45 дней. Встроенный GPS, NFC, водозащита. Для спорта — отлично.",
+            "rating": 5,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr254",
+            "text": "Хорошие часы, но тяжёлые — 44.3 г. Wear OS работает плавно. Google-приложения все на месте. Barometer и компас — для походов удобно. Дизайн строгий, офисный.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_ch006",
+        "name": "Huawei Watch GT 4 46mm",
+        "price": 20490,
+        "original_price": 26990,
+        "rating": 4.6,
+        "review_count": 1800,
+        "url": "https://wb.ru/product/huawei-watch-gt4-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_huawei",
+        "seller_name": "Huawei Store",
+        "attributes": {
+          "Экран": "1.43\" AMOLED 466x466",
+          "Батарея": "до 14 дней",
+          "Водозащита": "5 ATM",
+          "Датчики": "SpO2, ЧСС, температура кожи",
+          "Навигация": "GPS/ГЛОНАСС/BeiDou"
+        },
+        "reviews": [
+          {
+            "id": "wr610",
+            "text": "Носил Apple Watch — устал заряжать каждый день. GT 4 заряжаю раз в 2 недели. Экран красивый, циферблаты стильные. Для здоровья — всё что нужно.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr611",
+            "text": "Трекинг бега точный — GPS ловит за 5 секунд. Маршрут рисует чётко. Для бегунов и велосипедистов — отличный вариант за свои деньги.",
+            "rating": 4,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      }
+    ],
+    "кофемашины": [
+      {
+        "id": "wb_k001",
+        "name": "De'Longhi Magnifica S ECAM 22.110",
+        "price": 31990,
+        "original_price": 39990,
+        "rating": 4.6,
+        "review_count": 1890,
+        "url": "https://wildberries.ru/product/delonghi-magnifica-ecam22110-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_delonghi",
+        "seller_name": "De'Longhi Official",
+        "attributes": {
+          "Тип": "автоматическая",
+          "Давление": "15 бар",
+          "Кофемолка": "встроенная, жернова",
+          "Капучинатор": "ручной (панарелло)",
+          "Объём бака": "1.8 л"
+        },
+        "reviews": [
+          {
+            "id": "wr080",
+            "text": "Классика жанра. Работает уже 3 месяца без проблем. Кофе варит отличный, настройки помола и крепости удобные. Панарелло взбивает молоко нормально, но автомат было бы удобнее.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 68
+          },
+          {
+            "id": "wr081",
+            "text": "На WB нашёл дешевле всего. Машинка надёжная, De'Longhi знают что делают. Эспрессо вкусный, помол регулируется. Минус — ручной капучинатор, нужна сноровка.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr082",
+            "text": "Первая кофемашина — не пожалел. Экономия на кофейнях колоссальная. Зерновой кофе из неё вкуснее капсульного. Обслуживание простое — таблетки для очистки и всё.",
+            "rating": 5,
+            "date": "2025-01-15",
+            "verified_purchase": true,
+            "helpful_count": 35
+          }
+        ]
+      },
+      {
+        "id": "wb_k002",
+        "name": "Krups Evidence EA8908",
+        "price": 54990,
+        "original_price": 64990,
+        "rating": 4.5,
+        "review_count": 340,
+        "url": "https://wildberries.ru/product/krups-evidence-ea8908-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_krups",
+        "seller_name": "Krups Official",
+        "attributes": {
+          "Тип": "автоматическая",
+          "Давление": "15 бар",
+          "Кофемолка": "встроенная, жернова",
+          "Капучинатор": "автоматический",
+          "Рецепты": "15 напитков",
+          "Дисплей": "OLED"
+        },
+        "reviews": [
+          {
+            "id": "wr083",
+            "text": "15 рецептов — это реально удобно. Латте, капучино, флэт уайт, эспрессо макиато — всё одной кнопкой. OLED дисплей красивый и понятный. Кофе варит превосходно.",
+            "rating": 5,
+            "date": "2025-03-01",
+            "verified_purchase": true,
+            "helpful_count": 29
+          },
+          {
+            "id": "wr084",
+            "text": "Премиальная машина. Автоматический капучинатор делает идеальную пенку. Сборка отличная, выглядит стильно. Минус — обслуживание дорогое, фильтры и таблетки недешёвые.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 18
+          },
+          {
+            "id": "wr085",
+            "text": "Перешёл с De'Longhi начального уровня на Krups Evidence — разница огромная. Автокапучинатор — это кайф. Но цена кусается, и запчасти дорогие.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 14
+          }
+        ]
+      },
+      {
+        "id": "wb_k003",
+        "name": "Xiaomi Coffee Machine S1",
+        "price": 17490,
+        "original_price": 24990,
+        "rating": 4.1,
+        "review_count": 670,
+        "url": "https://wildberries.ru/product/xiaomi-coffee-s1-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Official",
+        "attributes": {
+          "Тип": "автоматическая",
+          "Давление": "20 бар",
+          "Кофемолка": "встроенная, жернова",
+          "Капучинатор": "ручной",
+          "Объём бака": "1.5 л"
+        },
+        "reviews": [
+          {
+            "id": "wr086",
+            "text": "Xiaomi и тут удивили — кофемашина за 17к! Давление 20 бар, кофе получается крепкий и ароматный. Управление через Mi Home — можно включить утром не вставая с кровати.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr087",
+            "text": "Для бюджетной кофемашины — отлично. Эспрессо вкусный, помол нормальный. Но пластик дешёвый, капучинатор слабый. За свои деньги — лучше не найти.",
+            "rating": 4,
+            "date": "2025-02-25",
+            "verified_purchase": true,
+            "helpful_count": 33
+          },
+          {
+            "id": "wr088",
+            "text": "Купил на пробу — приятно удивлён. Работает 2 месяца, пока без нареканий. Кофе хороший, не хуже чем на De'Longhi начального уровня. Бак маловат — 1.5 л, но для 2 человек хватает.",
+            "rating": 4,
+            "date": "2025-01-30",
+            "verified_purchase": true,
+            "helpful_count": 21
+          }
+        ]
+      },
+      {
+        "id": "wb_k004",
+        "name": "Saeco Xelsis Suprema SM8889",
+        "attributes": {
+          "Тип": "автоматическая",
+          "Давление": "15 бар",
+          "Капучинатор": "автоматический LatteDuo",
+          "Рецепты": "22 напитка",
+          "Дисплей": "TFT сенсорный"
+        },
+        "price": 114990,
+        "original_price": 139990,
+        "rating": 4.7,
+        "review_count": 180,
+        "url": "https://wildberries.ru/product/saeco-xelsis-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_saeco",
+        "seller_name": "Saeco Official",
+        "reviews": [
+          {
+            "id": "wr255",
+            "text": "Вершина домашних кофемашин. 22 напитка, сенсорный дисплей, LatteDuo. На WB нашёл дешевле на 5к чем на Ozon. Кофе как в ресторане. Профили пользователей — вся семья довольна.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 37
+          },
+          {
+            "id": "wr256",
+            "text": "Дорого, но это Saeco (Philips). Качество итальянское, надёжность немецкая. Кофе варит великолепно, молочная пенка идеальная. Самоочистка — не нужно возиться.",
+            "rating": 5,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 25
+          },
+          {
+            "id": "wr257",
+            "text": "Каждый напиток можно настроить — температура, крепость, объём молока, помол. Для кофеманов — рай. Цена пугает, но если считать экономию на кофейнях — окупается за год.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_k005",
+        "name": "Melitta Barista TS Smart F860-100",
+        "attributes": {
+          "Тип": "автоматическая",
+          "Давление": "15 бар",
+          "Капучинатор": "автоматический",
+          "Рецепты": "21 напиток",
+          "Управление": "Bluetooth + приложение"
+        },
+        "price": 76990,
+        "original_price": 94990,
+        "rating": 4.5,
+        "review_count": 390,
+        "url": "https://wildberries.ru/product/melitta-barista-ts-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_melitta",
+        "seller_name": "Melitta Official",
+        "reviews": [
+          {
+            "id": "wr258",
+            "text": "Управление через Bluetooth — включаю кофемашину с кровати! 21 напиток, два бункера для зёрен. Кофе варит отлично. Немецкое качество. На WB лучшая цена.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 34
+          },
+          {
+            "id": "wr259",
+            "text": "Приложение Melitta Companion удобное — создаёшь свои рецепты, настраиваешь каждый параметр. Два бункера — утром крепкий, вечером мягкий. Автокапучинатор — пенка идеальная.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 22
+          },
+          {
+            "id": "wr260",
+            "text": "Между Saeco и Melitta выбрал Melitta — дешевле и с Bluetooth. Кофе не хуже. Единственное — шумная при помоле. Но все зерновые кофемашины шумят.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 15
+          }
+        ]
+      },
+      {
+        "id": "wb_k006",
+        "name": "Nespresso Vertuo Next ENV120",
+        "attributes": {
+          "Тип": "капсульная",
+          "Давление": "19 бар",
+          "Технология": "Centrifusion",
+          "Капсулы": "Vertuo (5 размеров)",
+          "Время нагрева": "30 сек"
+        },
+        "price": 12990,
+        "original_price": 17990,
+        "rating": 4.2,
+        "review_count": 3450,
+        "url": "https://wildberries.ru/product/nespresso-vertuo-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_nespresso",
+        "seller_name": "Nespresso Store",
+        "reviews": [
+          {
+            "id": "wr261",
+            "text": "Для тех, кто хочет кофе без заморочек — идеально. Вставил капсулу, нажал кнопку. Кофе хороший, 5 размеров чашки. Centrifusion технология — крема густая. Минус — капсулы дорогие.",
+            "rating": 4,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr262",
+            "text": "Машинка компактная, на кухне не мешает. Нагревается за 30 секунд — утром это важно. Кофе вкусный, но капсулы выходят 40-60₽ за штуку. За месяц набегает прилично.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr263",
+            "text": "Удобно, быстро, вкусно. Но экологически — капсулы это зло. И дорого в пересчёте на чашку. Для офиса или если пьёшь 1-2 чашки в день — ок. Для кофемана — лучше зерновую.",
+            "rating": 3,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 52
+          }
+        ]
+      },
+      {
+        "id": "wb_k006",
+        "name": "Philips EP3341 LatteGo",
+        "price": 37990,
+        "original_price": 49990,
+        "rating": 4.5,
+        "review_count": 1400,
+        "url": "https://wb.ru/product/philips-ep3341-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_philips",
+        "seller_name": "Philips Store",
+        "attributes": {
+          "Тип": "автоматическая",
+          "Давление": "15 бар",
+          "Мощность": "1500 Вт",
+          "Ёмкость": "1.8 л",
+          "Кофемолка": "керамическая, 12 степеней",
+          "Капучинатор": "LatteGo (автоматический)"
+        },
+        "reviews": [
+          {
+            "id": "wr612",
+            "text": "Третья кофемашина — лучшая из всех. LatteGo делает капучино как в кофейне. Керамическая кофемолка тихая. Настройка крепости и температуры — всё есть.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 37
+          },
+          {
+            "id": "wr613",
+            "text": "Простая в управлении — жена разобралась за 5 минут. Капучино, латте, эспрессо — всё одной кнопкой. Очистка от накипи автоматическая.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 23
+          }
+        ]
+      }
+    ],
+    "портативные колонки": [
+      {
+        "id": "wb_sp001",
+        "name": "JBL Charge 5",
+        "price": 11990,
+        "original_price": 15990,
+        "rating": 4.8,
+        "review_count": 4200,
+        "url": "https://wildberries.ru/product/jbl-charge5-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_jbl",
+        "seller_name": "JBL Official",
+        "attributes": {
+          "Тип": "портативная",
+          "Мощность": "30 Вт",
+          "Батарея": "20 ч",
+          "Защита": "IP67",
+          "Bluetooth": "5.1"
+        },
+        "reviews": [
+          {
+            "id": "wr400",
+            "text": "На WB самая низкая цена на JBL Charge 5! Колонка — огонь. Звук мощный, бас глубокий. IP67 — брал на рыбалку, попала в воду — работает.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 72
+          },
+          {
+            "id": "wr401",
+            "text": "JBL делают лучшие портативные колонки. Charge 5 — хит. Батарея 20 часов, звук громкий. PartyBoost для стерео. Рекомендую.",
+            "rating": 5,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr402",
+            "text": "Тяжёлая, но звучит на все 30 ватт. Для пикника — незаменима. Заряжает телефон. На WB со скидкой — подарок.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 28
+          }
+        ]
+      },
+      {
+        "id": "wb_sp002",
+        "name": "Яндекс Станция 2",
+        "price": 13990,
+        "original_price": 17990,
+        "rating": 4.5,
+        "review_count": 1890,
+        "url": "https://wildberries.ru/product/yandex-station2-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_yandex",
+        "seller_name": "Яндекс",
+        "attributes": {
+          "Тип": "умная колонка",
+          "Мощность": "30 Вт",
+          "Ассистент": "Алиса",
+          "Zigbee": "да",
+          "HDMI": "да"
+        },
+        "reviews": [
+          {
+            "id": "wr403",
+            "text": "Алиса с YandexGPT — стала реально умной. Музыку играет хорошо. Умный дом управляется голосом. На WB дешевле чем у Яндекса.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr404",
+            "text": "Хорошая умная колонка. Zigbee встроенный — умные лампы подключаются напрямую. Звук для колонки — отличный.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr405",
+            "text": "Для умного дома — must have. Алиса управляет светом, розетками, кондиционером. Звук музыки приятный.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_sp003",
+        "name": "Sony SRS-XB100",
+        "price": 3790,
+        "original_price": 5490,
+        "rating": 4.4,
+        "review_count": 5600,
+        "url": "https://wildberries.ru/product/sony-srs-xb100-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_sony",
+        "seller_name": "Sony Store",
+        "attributes": {
+          "Тип": "портативная мини",
+          "Мощность": "5 Вт",
+          "Батарея": "16 ч",
+          "Защита": "IP67",
+          "Вес": "274 г"
+        },
+        "reviews": [
+          {
+            "id": "wr406",
+            "text": "Самая дешёвая колонка Sony на WB. Маленькая но звучит! IP67. Батарея 16 часов. Карабин для рюкзака. За 3.8к — подарок.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr407",
+            "text": "Компактная, лёгкая, водозащищённая. Звук для мини-колонки — хороший. Для велосипеда и прогулок — идеальна.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 29
+          },
+          {
+            "id": "wr408",
+            "text": "Sony качество в мини-формате. Не для вечеринок, но для личного использования — отлично. Заряда хватает на 2 дня.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 17
+          }
+        ]
+      },
+      {
+        "id": "wb_sp004",
+        "name": "Marshall Stanmore III Bluetooth",
+        "price": 33490,
+        "original_price": 39990,
+        "rating": 4.8,
+        "review_count": 450,
+        "url": "https://wildberries.ru/product/marshall-stanmore3-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_marshall",
+        "seller_name": "Marshall Store",
+        "attributes": {
+          "Тип": "стационарная",
+          "Мощность": "80 Вт",
+          "Bluetooth": "5.2",
+          "Подключение": "RCA, 3.5mm, Bluetooth",
+          "Дизайн": "ретро"
+        },
+        "reviews": [
+          {
+            "id": "wr409",
+            "text": "Звук Marshall — это искусство. 80 ватт заполняют комнату. Дизайн ретро — украшение интерьера. На WB на 2к дешевле чем на Ozon.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 44
+          },
+          {
+            "id": "wr410",
+            "text": "Для дома — лучшая колонка. Рок, джаз, электроника — всё звучит великолепно. Bluetooth стабильный. Ретро-дизайн — жена довольна.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr411",
+            "text": "Тяжёлая и дорогая, но звук и дизайн оправдывают. Marshall Stanmore III — для тех, кто ценит качество.",
+            "rating": 4,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_pk005",
+        "name": "Harman Kardon Aura Studio 4",
+        "price": 23990,
+        "original_price": 29990,
+        "rating": 4.6,
+        "review_count": 350,
+        "url": "https://wb.ru/product/harman-kardon-aura4-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_harman",
+        "seller_name": "Harman Store",
+        "attributes": {
+          "Мощность": "130 Вт",
+          "Подключение": "Bluetooth 5.3 / Wi-Fi",
+          "Время работы": "от сети",
+          "Водозащита": "нет",
+          "Вес": "3.2 кг"
+        },
+        "reviews": [
+          {
+            "id": "wr614",
+            "text": "Звук невероятный для домашней колонки. 130 Вт мощности — соседи могут не оценить. Подсветка создаёт атмосферу. Стоит на столе как арт-объект.",
+            "rating": 5,
+            "date": "2025-03-11",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr615",
+            "text": "Подключил по Wi-Fi — качество звука лучше чем по Bluetooth. AirPlay и Chromecast поддерживает. Для квартиры — замена полноценной аудиосистемы.",
+            "rating": 5,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_pk006",
+        "name": "JBL Flip 6",
+        "price": 7490,
+        "original_price": 9990,
+        "rating": 4.5,
+        "review_count": 4800,
+        "url": "https://wb.ru/product/jbl-flip6-006",
+        "in_stock": true,
+        "seller_id": "wb_seller_jbl",
+        "seller_name": "JBL Store",
+        "attributes": {
+          "Мощность": "30 Вт",
+          "Подключение": "Bluetooth 5.1",
+          "Время работы": "12 ч",
+          "Водозащита": "IP67",
+          "Вес": "550 г"
+        },
+        "reviews": [
+          {
+            "id": "wr616",
+            "text": "Лучшая портативная колонка за свои деньги. Звук мощный, басы плотные. Водозащита IP67 — купался с ней в бассейне. Заряд 12 часов — проверено.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr617",
+            "text": "Купил уже третью — себе и в подарок. Качество стабильное, звук отличный. Из минусов — нет AUX входа, только Bluetooth.",
+            "rating": 4,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 25
+          }
+        ]
+      }
+    ],
+    "электросамокаты": [
+      {
+        "id": "wb_sc001",
+        "name": "Ninebot KickScooter MAX G2",
+        "price": 52990,
+        "original_price": 64990,
+        "rating": 4.7,
+        "review_count": 1120,
+        "url": "https://wildberries.ru/product/ninebot-max-g2-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_ninebot",
+        "seller_name": "Ninebot Store",
+        "attributes": {
+          "Мощность": "900 Вт (пик)",
+          "Скорость": "25 км/ч",
+          "Запас хода": "70 км",
+          "Вес": "24.3 кг",
+          "Тормоза": "дисковые + регенеративный"
+        },
+        "reviews": [
+          {
+            "id": "wr420",
+            "text": "На WB дешевле на 2к! Ninebot MAX G2 — лучший самокат для дальних поездок. 70 км хода. Мощный, стабильный. Тяжёлый, но надёжный.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 51
+          },
+          {
+            "id": "wr421",
+            "text": "Качество Segway на высоте. Дисковые тормоза — безопасно. 10\" колёса — комфортно. Для ежедневных поездок 10-15 км — идеален.",
+            "rating": 5,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 35
+          },
+          {
+            "id": "wr422",
+            "text": "Дорого, но стоит. За год поездок на метро экономлю 40к. Самокат надёжный, батарея не деградирует. Рекомендую.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      },
+      {
+        "id": "wb_sc002",
+        "name": "Xiaomi Electric Scooter 4 Pro",
+        "price": 37990,
+        "original_price": 49990,
+        "rating": 4.6,
+        "review_count": 2800,
+        "url": "https://wildberries.ru/product/xiaomi-scooter-4-pro-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Official",
+        "attributes": {
+          "Мощность": "700 Вт (пик)",
+          "Скорость": "25 км/ч",
+          "Запас хода": "56 км",
+          "Вес": "16.5 кг",
+          "Колёса": "10\" пневматические"
+        },
+        "reviews": [
+          {
+            "id": "wr423",
+            "text": "На WB Xiaomi самокат за 38к — отличная цена! 56 км хода, 10\" колёса, 16.5 кг. Для города — идеально. Приложение Mi Home удобное.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 62
+          },
+          {
+            "id": "wr424",
+            "text": "Лучший самокат в среднем сегменте. Xiaomi не подводит. Большие колёса — комфорт на неровностях. Складной, помещается в багажник.",
+            "rating": 5,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 41
+          },
+          {
+            "id": "wr425",
+            "text": "Третий сезон на Xiaomi — полёт нормальный. 4 Pro — лучшая модель. Пневматические колёса, мощный мотор. Рекомендую.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 25
+          }
+        ]
+      },
+      {
+        "id": "wb_sc003",
+        "name": "Kugoo Kirin S1 Pro",
+        "price": 18990,
+        "original_price": 24990,
+        "rating": 4.0,
+        "review_count": 5600,
+        "url": "https://wildberries.ru/product/kugoo-s1-pro-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_kugoo",
+        "seller_name": "Kugoo Store",
+        "attributes": {
+          "Мощность": "350 Вт",
+          "Скорость": "25 км/ч",
+          "Запас хода": "30 км",
+          "Вес": "12 кг",
+          "Колёса": "8.5\""
+        },
+        "reviews": [
+          {
+            "id": "wr426",
+            "text": "Самый дешёвый самокат на WB с нормальными характеристиками. 30 км хода, складной, лёгкий. Для короткий поездок — ок.",
+            "rating": 4,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr427",
+            "text": "Бюджетный вариант. Не ждите чудес за 19к. Едет, складывается, 30 км хватает. Колёса маленькие — ямы чувствуются.",
+            "rating": 3,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr428",
+            "text": "Для первого самоката — нормально. Если понравится — потом возьмёте Xiaomi или Ninebot. За 19к — не жалко.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_es004",
+        "name": "Kugoo Kirin S1 Pro",
+        "price": 23990,
+        "original_price": 29990,
+        "rating": 4.2,
+        "review_count": 2400,
+        "url": "https://wb.ru/product/kugoo-kirin-s1pro-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_kugoo",
+        "seller_name": "Kugoo Store",
+        "attributes": {
+          "Мощность двигателя": "350 Вт",
+          "Скорость": "30 км/ч",
+          "Запас хода": "30 км",
+          "Вес": "12 кг",
+          "Нагрузка": "120 кг",
+          "Колёса": "8.5\" пневматические"
+        },
+        "reviews": [
+          {
+            "id": "wr618",
+            "text": "Лучший самокат до 25к. Лёгкий, шустрый, надёжный. Батарея держит заявленные 30 км (летом, по ровной дороге). Зимой — 20 км.",
+            "rating": 4,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 30
+          },
+          {
+            "id": "wr619",
+            "text": "Купил сыну на день рождения — катается каждый день. Конструкция прочная, выдерживает 120 кг. Фара яркая, стоп-сигнал есть.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_es005",
+        "name": "Xiaomi Electric Scooter 4",
+        "price": 33490,
+        "original_price": 39990,
+        "rating": 4.4,
+        "review_count": 1600,
+        "url": "https://wb.ru/product/xiaomi-scooter4-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Store",
+        "attributes": {
+          "Мощность двигателя": "300 Вт (пик 600 Вт)",
+          "Скорость": "25 км/ч",
+          "Запас хода": "35 км",
+          "Вес": "14.8 кг",
+          "Нагрузка": "110 кг",
+          "Колёса": "10\" пневматические"
+        },
+        "reviews": [
+          {
+            "id": "wr620",
+            "text": "Плавный ход, тихий мотор, хорошие тормоза. 10\" колёса — комфорт на тротуарах. Приложение Mi Home удобное. Для ежедневных поездок — лучший.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 36
+          },
+          {
+            "id": "wr621",
+            "text": "Обновление четвёрки — шаг вперёд от третьей модели. Батарея больше, колёса больше, торможение лучше. Рекомендую.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      }
+    ],
+    "экшн-камеры": [
+      {
+        "id": "wb_cam001",
+        "name": "GoPro HERO12 Black",
+        "price": 37990,
+        "original_price": 49990,
+        "rating": 4.8,
+        "review_count": 1560,
+        "url": "https://wildberries.ru/product/gopro-hero12-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_gopro",
+        "seller_name": "GoPro Store",
+        "attributes": {
+          "Разрешение": "5.3K 60fps",
+          "Стабилизация": "HyperSmooth 6.0",
+          "Защита": "10м без бокса",
+          "Батарея": "70 мин (5.3K)",
+          "HDR": "да"
+        },
+        "reviews": [
+          {
+            "id": "wr440",
+            "text": "На WB GoPro 12 дешевле на 2к! Лучшая экшн-камера. 5.3K, HyperSmooth — видео гладкое как масло. Для сноуборда — must have.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 58
+          },
+          {
+            "id": "wr441",
+            "text": "GoPro Hero 12 — эталон. Стабилизация невероятная, видео 5.3K чёткое. GPS для маршрутов. Батарея 70 минут — слабовата.",
+            "rating": 5,
+            "date": "2025-02-18",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr442",
+            "text": "Снимаю влоги — качество топ. Но батарея — больное место. Вожу 3 запасных. Качество видео того стоит.",
+            "rating": 4,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      },
+      {
+        "id": "wb_cam002",
+        "name": "DJI Osmo Action 4",
+        "price": 28490,
+        "original_price": 36990,
+        "rating": 4.7,
+        "review_count": 780,
+        "url": "https://wildberries.ru/product/dji-action4-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_dji",
+        "seller_name": "DJI Store",
+        "attributes": {
+          "Разрешение": "4K 120fps",
+          "Стабилизация": "RockSteady 3.0",
+          "Защита": "18м без бокса",
+          "Батарея": "160 мин (1080p)",
+          "Сенсор": "1/1.3\""
+        },
+        "reviews": [
+          {
+            "id": "wr443",
+            "text": "DJI Action 4 — лучший конкурент GoPro. Большой сенсор — ночное видео лучше. 18м водозащита. Батарея 160 мин — вдвое!",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 41
+          },
+          {
+            "id": "wr444",
+            "text": "Для дайвинга взял DJI вместо GoPro. 18м без бокса — огонь. Ночное видео — небо и земля с GoPro. Рекомендую.",
+            "rating": 5,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 27
+          },
+          {
+            "id": "wr445",
+            "text": "Хорошая экшн-камера. Стабилизация работает. 4K 120fps — slow-motion красивый. Минус — приложение DJI иногда глючит.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_cam003",
+        "name": "Insta360 X4",
+        "price": 47990,
+        "original_price": 59990,
+        "rating": 4.5,
+        "review_count": 340,
+        "url": "https://wildberries.ru/product/insta360-x4-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_insta360",
+        "seller_name": "Insta360 Store",
+        "attributes": {
+          "Разрешение": "8K 360°",
+          "Стабилизация": "FlowState",
+          "Защита": "IPX8 (10м)",
+          "Батарея": "135 мин",
+          "Особенности": "360° съёмка, AI-рефрейминг"
+        },
+        "reviews": [
+          {
+            "id": "wr446",
+            "text": "360° в 8K — будущее контента. Снимаешь всё вокруг, потом монтируешь как обычное видео. AI рефрейминг — магия. На WB дешевле.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 33
+          },
+          {
+            "id": "wr447",
+            "text": "Для путешествий — революция. Не нужно думать куда направить камеру. AI выберет лучшие ракурсы. Качество после рефрейминга — отличное.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 22
+          },
+          {
+            "id": "wr448",
+            "text": "Необычная камера для необычного контента. 360° видео впечатляет. Приложение мощное. Для YouTube и соцсетей — рекомендую.",
+            "rating": 4,
+            "date": "2025-01-28",
+            "verified_purchase": true,
+            "helpful_count": 14
+          }
+        ]
+      },
+      {
+        "id": "wb_ek004",
+        "name": "DJI Action 2 Dual-Screen",
+        "price": 23990,
+        "original_price": 32990,
+        "rating": 4.3,
+        "review_count": 550,
+        "url": "https://wb.ru/product/dji-action2-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_dji",
+        "seller_name": "DJI Store",
+        "attributes": {
+          "Разрешение": "4K 120fps",
+          "Стабилизация": "RockSteady + HorizonSteady",
+          "Экран": "OLED сенсорный + доп. экран",
+          "Водозащита": "10 м",
+          "Вес": "56 г (модуль камеры)"
+        },
+        "reviews": [
+          {
+            "id": "wr622",
+            "text": "Самая лёгкая экшн-камера — 56 грамм. На шлеме не чувствуется. Магниты держат крепко. Видео с горнолыжки — стабилизация идеальная.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr623",
+            "text": "Хорошая камера, но без доп. модуля батареи хватает на 70 минут. С модулем — 160 минут. Для коротких съёмок — достаточно.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 15
+          }
+        ]
+      }
+    ],
+    "фитнес-браслеты": [
+      {
+        "id": "wb_fb001",
+        "name": "Xiaomi Smart Band 8",
+        "price": 2790,
+        "original_price": 3990,
+        "rating": 4.6,
+        "review_count": 11200,
+        "url": "https://wildberries.ru/product/xiaomi-band8-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Official",
+        "attributes": {
+          "Экран": "1.62\" AMOLED",
+          "Батарея": "до 16 дней",
+          "Защита": "5 ATM",
+          "Датчики": "пульс, SpO2",
+          "NFC": "нет"
+        },
+        "reviews": [
+          {
+            "id": "wr460",
+            "text": "На WB самая низкая цена на Xiaomi Band 8! За 2.8к — AMOLED экран, пульс, SpO2, 16 дней батареи. Хит года.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 95
+          },
+          {
+            "id": "wr461",
+            "text": "Xiaomi Band — бессменный лидер. 8-я версия стала ещё лучше. Экран яркий, ремешок удобный. Для фитнеса — идеален.",
+            "rating": 5,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 68
+          },
+          {
+            "id": "wr462",
+            "text": "За 2.8к — лучший фитнес-трекер. Шаги, пульс, сон — всё отслеживает. Уведомления показывает. Батарея 2 недели.",
+            "rating": 5,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 42
+          }
+        ]
+      },
+      {
+        "id": "wb_fb002",
+        "name": "Huawei Band 9",
+        "price": 3290,
+        "original_price": 4490,
+        "rating": 4.5,
+        "review_count": 6700,
+        "url": "https://wildberries.ru/product/huawei-band9-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_huawei",
+        "seller_name": "Huawei Store",
+        "attributes": {
+          "Экран": "1.47\" AMOLED",
+          "Батарея": "до 14 дней",
+          "Защита": "5 ATM",
+          "Датчики": "пульс, SpO2, температура",
+          "Зарядка": "магнитная"
+        },
+        "reviews": [
+          {
+            "id": "wr463",
+            "text": "Huawei Band 9 на WB со скидкой. Датчик температуры — уникальная фишка для браслета. Батарея 14 дней. Экран AMOLED яркий.",
+            "rating": 4,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr464",
+            "text": "Конкурент Xiaomi Band 8. Плюсы — датчик температуры, мягкий ремешок. Минусы — экран чуть меньше. Для здоровья — отлично.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr465",
+            "text": "Удобный браслет для фитнеса. Huawei Health приложение хорошее. Сон мониторит точно. Рекомендую.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_fb003",
+        "name": "Samsung Galaxy Fit3",
+        "price": 4790,
+        "original_price": 6490,
+        "rating": 4.3,
+        "review_count": 2800,
+        "url": "https://wildberries.ru/product/samsung-fit3-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Экран": "1.6\" AMOLED",
+          "Батарея": "до 13 дней",
+          "Защита": "5 ATM + IP68",
+          "Датчики": "пульс, SpO2",
+          "NFC": "нет"
+        },
+        "reviews": [
+          {
+            "id": "wr466",
+            "text": "Большой экран 1.6\" — удобно читать уведомления. Samsung Health — лучшее приложение для здоровья. Батарея 13 дней. Стильный дизайн.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr467",
+            "text": "Для Samsung-телефонов — лучший браслет. Интеграция отличная. Экран большой и яркий. Дороже Xiaomi, но экосистема стоит того.",
+            "rating": 4,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 20
+          },
+          {
+            "id": "wr468",
+            "text": "Хороший браслет, но за 5к уже можно посмотреть на Amazfit Band 7. Samsung берут за бренд.",
+            "rating": 3,
+            "date": "2025-01-25",
+            "verified_purchase": true,
+            "helpful_count": 25
+          }
+        ]
+      },
+      {
+        "id": "wb_fb004",
+        "name": "Honor Band 7",
+        "price": 2790,
+        "original_price": 3990,
+        "rating": 4.3,
+        "review_count": 3600,
+        "url": "https://wb.ru/product/honor-band7-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_honor",
+        "seller_name": "Honor Store",
+        "attributes": {
+          "Экран": "1.47\" AMOLED",
+          "Батарея": "до 14 дней",
+          "Водозащита": "5 ATM",
+          "Датчики": "SpO2, ЧСС",
+          "Вес": "28 г"
+        },
+        "reviews": [
+          {
+            "id": "wr624",
+            "text": "Дешёво и качественно. Экран яркий, читается на солнце. Уведомления приходят, будильник вибрирует. Для базового фитнес-трекинга — более чем достаточно.",
+            "rating": 4,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 40
+          },
+          {
+            "id": "wr625",
+            "text": "Купил маме — довольна. Простой интерфейс, большие цифры. Пульс меряет, шаги считает. Заряжаю раз в 2 недели. Для возрастных пользователей — отличный вариант.",
+            "rating": 4,
+            "date": "2025-02-16",
+            "verified_purchase": true,
+            "helpful_count": 28
+          }
+        ]
+      }
+    ],
+    "клавиатуры": [
+      {
+        "id": "wb_kb001",
+        "name": "Logitech MX Keys S",
+        "price": 9490,
+        "original_price": 12990,
+        "rating": 4.7,
+        "review_count": 1890,
+        "url": "https://wildberries.ru/product/logitech-mx-keys-s-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_logitech",
+        "seller_name": "Logitech Store",
+        "attributes": {
+          "Тип": "мембранная низкопрофильная",
+          "Подключение": "Bluetooth + Logi Bolt",
+          "Подсветка": "Smart Backlight",
+          "Батарея": "до 10 дней",
+          "Мультиустройство": "3 устройства"
+        },
+        "reviews": [
+          {
+            "id": "wr480",
+            "text": "На WB MX Keys S дешевле на 500р. Лучшая офисная клавиатура. Тихая, удобная, Smart Backlight. 3 устройства одновременно.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr481",
+            "text": "Для работы из дома — незаменима. Переключаюсь между Mac и PC одной кнопкой. Flow — перетаскивание файлов между компьютерами.",
+            "rating": 5,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr482",
+            "text": "Печатать на MX Keys S — удовольствие. Тихие клавиши, приятный ход. Подсветка умная. Батарея на неделю.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_kb002",
+        "name": "Keychron K8 Pro (Gateron Brown)",
+        "price": 7490,
+        "original_price": 9990,
+        "rating": 4.6,
+        "review_count": 1120,
+        "url": "https://wildberries.ru/product/keychron-k8-pro-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_keychron",
+        "seller_name": "Keychron Store",
+        "attributes": {
+          "Тип": "механическая TKL",
+          "Свитчи": "Gateron G Pro Brown",
+          "Подключение": "Bluetooth 5.1 + USB-C",
+          "Подсветка": "RGB",
+          "Раскладка": "TKL (87 клавиш)"
+        },
+        "reviews": [
+          {
+            "id": "wr483",
+            "text": "Keychron — лучшие механики за свои деньги. K8 Pro с QMK — кастомизация бесконечная. Brown свитчи — тактильные, тихие. На WB дешевле.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr484",
+            "text": "Bluetooth + USB-C, Mac + Windows. Алюминиевый корпус. Hot-swap свитчи. За 7.5к — отличная механическая клавиатура.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr485",
+            "text": "Для программиста — идеальная клавиатура. TKL формат, Bluetooth, QMK. Всё что нужно. Рекомендую.",
+            "rating": 5,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_kb003",
+        "name": "Razer BlackWidow V4 75%",
+        "price": 13990,
+        "original_price": 17990,
+        "rating": 4.5,
+        "review_count": 780,
+        "url": "https://wildberries.ru/product/razer-bw-v4-75-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_razer",
+        "seller_name": "Razer Store",
+        "attributes": {
+          "Тип": "механическая 75%",
+          "Свитчи": "Razer Orange",
+          "Подключение": "USB-C",
+          "Подсветка": "RGB Chroma",
+          "Особенности": "командный диск, hot-swap"
+        },
+        "reviews": [
+          {
+            "id": "wr486",
+            "text": "На WB дешевле на 1к. Razer BW V4 75% — компактная игровая. Командный диск — удобно. RGB красивый. Свитчи hot-swap.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr487",
+            "text": "Для геймеров — топ. 75% формат, Razer Orange — тактильные. Chroma подсветка — красота. Качество Razer.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 19
+          },
+          {
+            "id": "wr488",
+            "text": "Хорошая клавиатура, но только проводная. Для настольного гейминга — ок. Для мобильности — Keychron лучше.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 12
+          }
+        ]
+      },
+      {
+        "id": "wb_kb004",
+        "name": "HyperX Alloy Origins 65",
+        "price": 7490,
+        "original_price": 9990,
+        "rating": 4.5,
+        "review_count": 1500,
+        "url": "https://wb.ru/product/hyperx-alloy-origins65-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_hyperx",
+        "seller_name": "HyperX Store",
+        "attributes": {
+          "Тип": "механическая",
+          "Форм-фактор": "65%",
+          "Переключатели": "HyperX Red (линейные)",
+          "Подсветка": "RGB",
+          "Подключение": "USB-C",
+          "Корпус": "алюминий"
+        },
+        "reviews": [
+          {
+            "id": "wr626",
+            "text": "Лучшая 65% клавиатура за свои деньги. Конкуренты дороже на 3-4к при том же качестве. Алюминиевый корпус, PBT кейкапы. Держит удар.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 30
+          },
+          {
+            "id": "wr627",
+            "text": "Перешёл с полноразмерной — не жалею. Стрелки есть, Delete есть — всё что нужно. Тише чем Cherry MX Red. Для работы и игр — универсальная.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 20
+          }
+        ]
+      }
+    ],
+    "электрические зубные щётки": [
+      {
+        "id": "wb_tb001",
+        "name": "Oral-B iO Series 9",
+        "price": 18990,
+        "original_price": 24990,
+        "rating": 4.7,
+        "review_count": 1890,
+        "url": "https://wildberries.ru/product/oral-b-io9-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_braun",
+        "seller_name": "Braun Store",
+        "attributes": {
+          "Тип": "электрическая",
+          "Технология": "iO магнитная",
+          "Режимы": "7",
+          "Таймер": "да, 3D-трекинг",
+          "Зарядка": "магнитная"
+        },
+        "reviews": [
+          {
+            "id": "wr500",
+            "text": "На WB дешевле на 1к! Oral-B iO 9 — топовая щётка. 3D-трекинг — показывает где плохо почистил. 7 режимов. Стоматолог доволен.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr501",
+            "text": "Лучшая электрическая щётка на рынке. Магнитный мотор тихий. Приложение полезное. Дорого, но здоровье зубов важнее.",
+            "rating": 5,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 32
+          },
+          {
+            "id": "wr502",
+            "text": "Насадки дорогие — единственный минус. Но щётка чистит идеально. 3D-трекинг реально помогает.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 20
+          }
+        ]
+      },
+      {
+        "id": "wb_tb002",
+        "name": "Philips Sonicare DiamondClean 9000",
+        "price": 13990,
+        "original_price": 19990,
+        "rating": 4.7,
+        "review_count": 2450,
+        "url": "https://wildberries.ru/product/philips-sonicare-dc9000-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_philips",
+        "seller_name": "Philips Official",
+        "attributes": {
+          "Тип": "звуковая",
+          "Частота": "31000 движений/мин",
+          "Режимы": "4",
+          "Таймер": "2 мин + 30 сек",
+          "Зарядка": "стакан-зарядка"
+        },
+        "reviews": [
+          {
+            "id": "wr503",
+            "text": "Philips Sonicare — бережная чистка. Звуковая технология лучше для чувствительных дёсен. Стакан-зарядка стильный. На WB дешевле.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 41
+          },
+          {
+            "id": "wr504",
+            "text": "Стоматолог рекомендовал звуковую щётку — выбрал Philips. Дёсны стали здоровее. Батарея 2 недели. Рекомендую.",
+            "rating": 5,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 27
+          },
+          {
+            "id": "wr505",
+            "text": "Хорошая щётка. 4 режима, таймер, стильная зарядка. Для зубов — инвестиция. Лучше Oral-B для чувствительных дёсен.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
+        ]
+      },
+      {
+        "id": "wb_tb003",
+        "name": "Xiaomi Mi Smart Electric Toothbrush T700",
+        "price": 3690,
+        "original_price": 5490,
+        "rating": 4.4,
+        "review_count": 6800,
+        "url": "https://wildberries.ru/product/xiaomi-t700-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Official",
+        "attributes": {
+          "Тип": "звуковая",
+          "Частота": "39600 движений/мин",
+          "Режимы": "настраиваемые через приложение",
+          "Таймер": "да",
+          "Защита": "IPX8"
+        },
+        "reviews": [
+          {
+            "id": "wr506",
+            "text": "На WB самая дешёвая цена на Xiaomi T700! За 3.7к — электрическая щётка с приложением. 39600 движений. Батарея месяц. Подарок!",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 74
+          },
+          {
+            "id": "wr507",
+            "text": "Xiaomi в 4 раза дешевле Oral-B, а чистит отлично. Mi Home настраивает режимы. IPX8. Первая щётка — рекомендую.",
+            "rating": 5,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr508",
+            "text": "Отличная бюджетная электрощётка. Приложение удобное. Батарея месяц. За 3.7к — лучшее предложение.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 31
+          }
+        ]
+      },
+      {
+        "id": "wb_zsh004",
+        "name": "Soocas X3U",
+        "price": 3690,
+        "original_price": 5490,
+        "rating": 4.3,
+        "review_count": 4500,
+        "url": "https://wb.ru/product/soocas-x3u-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_soocas",
+        "seller_name": "Soocas Store",
+        "attributes": {
+          "Тип": "звуковая",
+          "Частота": "39600 движений/мин",
+          "Режимы": "3 (стандарт, деликатный, массаж)",
+          "Батарея": "до 25 дней",
+          "Водозащита": "IPX7"
+        },
+        "reviews": [
+          {
+            "id": "wr628",
+            "text": "Бюджетная альтернатива Philips — и очень достойная. Чистит хорошо, батарея держит 3 недели. В комплекте 2 насадки и кейс.",
+            "rating": 4,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 44
+          },
+          {
+            "id": "wr629",
+            "text": "Три режима — деликатный для чувствительных дёсен идеален. Массажный — приятно массирует дёсны. Стоматолог одобрил результат через месяц.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 30
+          }
+        ]
+      }
+    ],
+    "мониторы": [
+      {
+        "id": "wb_mon001",
+        "name": "Samsung Odyssey G5 27\" QHD 165Hz",
+        "price": 21490,
+        "original_price": 29990,
+        "rating": 4.7,
+        "review_count": 2340,
+        "url": "https://wildberries.ru/product/samsung-odyssey-g5-27-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_samsung",
+        "seller_name": "Samsung Store",
+        "attributes": {
+          "Диагональ": "27\"",
+          "Разрешение": "2560×1440 (QHD)",
+          "Частота": "165 Гц",
+          "Матрица": "VA",
+          "Время отклика": "1 мс",
+          "Изгиб": "1000R"
+        },
+        "reviews": [
+          {
+            "id": "wr520",
+            "text": "На WB Odyssey G5 дешевле на 1.5к! Игровой монитор мечты. QHD 165 Гц, VA контрастность. Для CS2 и RPG — идеален.",
+            "rating": 5,
+            "date": "2025-03-09",
+            "verified_purchase": true,
+            "helpful_count": 51
+          },
+          {
+            "id": "wr521",
+            "text": "Лучший игровой монитор до 25к. 1440p, 165 Гц, 1 мс. Изогнутый — комфортно. VA глубокий чёрный.",
+            "rating": 5,
+            "date": "2025-02-17",
+            "verified_purchase": true,
+            "helpful_count": 35
+          },
+          {
+            "id": "wr522",
+            "text": "Для гейминга — отличный. VA матрица контрастная. Минус — углы обзора, но за монитором сидишь по центру.",
+            "rating": 4,
+            "date": "2025-01-22",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      },
+      {
+        "id": "wb_mon002",
+        "name": "LG UltraFine 27UN850-W 27\" 4K",
+        "price": 33490,
+        "original_price": 42990,
+        "rating": 4.7,
+        "review_count": 560,
+        "url": "https://wildberries.ru/product/lg-ultrafine-27-4k-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_lg",
+        "seller_name": "LG Official",
+        "attributes": {
+          "Диагональ": "27\"",
+          "Разрешение": "3840×2160 (4K UHD)",
+          "Частота": "60 Гц",
+          "Матрица": "IPS",
+          "Цветовой охват": "HDR400, DCI-P3 95%",
+          "USB-C": "96W PD"
+        },
+        "reviews": [
+          {
+            "id": "wr523",
+            "text": "На WB LG UltraFine дешевле. 4K IPS, USB-C 96W — MacBook подключается одним кабелем. Для дизайнеров — мечта.",
+            "rating": 5,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 45
+          },
+          {
+            "id": "wr524",
+            "text": "Отличный рабочий монитор. 4K детализация, DCI-P3 95%. USB-C заряжает ноут. HDR400 для кино.",
+            "rating": 5,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 31
+          },
+          {
+            "id": "wr525",
+            "text": "Для работы с фото — идеален. Цвета точные, разрешение высокое. 60 Гц для игр не подходит.",
+            "rating": 4,
+            "date": "2025-01-20",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      },
+      {
+        "id": "wb_mon003",
+        "name": "ASUS ProArt PA278QV 27\" QHD",
+        "price": 26490,
+        "original_price": 34990,
+        "rating": 4.5,
+        "review_count": 340,
+        "url": "https://wildberries.ru/product/asus-proart-pa278qv-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_asus",
+        "seller_name": "ASUS Store",
+        "attributes": {
+          "Диагональ": "27\"",
+          "Разрешение": "2560×1440 (QHD)",
+          "Частота": "75 Гц",
+          "Матрица": "IPS",
+          "Цветовой охват": "sRGB 100%, Rec. 709",
+          "Калибровка": "заводская ΔE<2"
+        },
+        "reviews": [
+          {
+            "id": "wr526",
+            "text": "ASUS ProArt — для профессионалов. Заводская калибровка — цвета идеальные. На WB дешевле на 1.5к. Рекомендую дизайнерам.",
+            "rating": 5,
+            "date": "2025-03-05",
+            "verified_purchase": true,
+            "helpful_count": 33
+          },
+          {
+            "id": "wr527",
+            "text": "sRGB 100% из коробки. Для фотографов — важно. QHD достаточно для работы. Подставка удобная.",
+            "rating": 4,
+            "date": "2025-02-12",
+            "verified_purchase": true,
+            "helpful_count": 21
+          },
+          {
+            "id": "wr528",
+            "text": "Хороший рабочий монитор. Калибровка заводская. IPS матрица. Для дизайна и цветокоррекции.",
+            "rating": 4,
+            "date": "2025-01-18",
+            "verified_purchase": true,
+            "helpful_count": 13
+          }
+        ]
+      },
+      {
+        "id": "wb_mon004",
+        "name": "Dell UltraSharp U2723QE 27\"",
+        "price": 48990,
+        "original_price": 59990,
+        "rating": 4.7,
+        "review_count": 580,
+        "url": "https://wb.ru/product/dell-u2723qe-004",
+        "in_stock": true,
+        "seller_id": "wb_seller_dell",
+        "seller_name": "Dell Store",
+        "attributes": {
+          "Диагональ": "27\"",
+          "Разрешение": "4K UHD (3840x2160)",
+          "Матрица": "IPS Black",
+          "Яркость": "350 кд/м²",
+          "Порты": "USB-C 90W, HDMI, DP, USB-хаб",
+          "Цветовой охват": "98% DCI-P3"
+        },
+        "reviews": [
+          {
+            "id": "wr630",
+            "text": "Лучший монитор для работы. USB-C хаб встроенный — один кабель к ноутбуку, и всё работает: картинка, зарядка, периферия. IPS Black — чёрный как VA.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 36
+          },
+          {
+            "id": "wr631",
+            "text": "Эргономичная подставка — поворот, наклон, высота, портрет. VESA тоже есть. Для программистов — поворачиваешь в портрет и код читается идеально.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 27
+          }
+        ]
+      },
+      {
+        "id": "wb_mon005",
+        "name": "Xiaomi G27i 27\"",
+        "price": 11990,
+        "original_price": 16990,
+        "rating": 4.3,
+        "review_count": 2900,
+        "url": "https://wb.ru/product/xiaomi-g27i-005",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Store",
+        "attributes": {
+          "Диагональ": "27\"",
+          "Разрешение": "Full HD (1920x1080)",
+          "Матрица": "IPS",
+          "Частота": "165 Гц",
+          "Время отклика": "1 мс (MPRT)",
+          "Порты": "HDMI, DP"
+        },
+        "reviews": [
+          {
+            "id": "wr632",
+            "text": "Игровой монитор от Xiaomi — неожиданно хорошо. 165 Гц матрица быстрая, смазов нет. Цвета из коробки приемлемые. За 12к — лучший вариант.",
+            "rating": 4,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 46
+          },
+          {
+            "id": "wr633",
+            "text": "Для казуальных геймеров — идеально. Full HD на 27\" — пиксели не видны с рабочего расстояния. FreeSync работает стабильно, без мерцания.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 30
+          }
+        ]
+      }
+    ],
+    "принтеры": [
+      {
+        "id": "wb_pr001",
+        "name": "HP LaserJet Pro M404dn",
+        "price": 23990,
+        "original_price": 29990,
+        "rating": 4.5,
+        "review_count": 1500,
+        "url": "https://wb.ru/product/hp-laserjet-m404dn-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_hp",
+        "seller_name": "HP Store",
+        "attributes": {
+          "Тип": "лазерный ч/б",
+          "Скорость печати": "38 стр/мин",
+          "Разрешение": "1200x1200 dpi",
+          "Двусторонняя печать": "автоматическая",
+          "Лоток": "250 листов",
+          "Подключение": "USB, Ethernet"
+        },
+        "reviews": [
+          {
+            "id": "wr634",
+            "text": "Лазерный принтер HP — классика жанра. Быстрый, надёжный, экономичный. Тонер CF259A хватает надолго. Для документов — лучший выбор.",
+            "rating": 5,
+            "date": "2025-03-12",
+            "verified_purchase": true,
+            "helpful_count": 36
+          },
+          {
+            "id": "wr635",
+            "text": "Поставил в офис на 10 человек — справляется легко. Дуплекс автоматический, Ethernet из коробки. Настройка за 5 минут.",
+            "rating": 4,
+            "date": "2025-02-22",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      },
+      {
+        "id": "wb_pr002",
+        "name": "Canon PIXMA G3430",
+        "price": 13990,
+        "original_price": 17990,
+        "rating": 4.4,
+        "review_count": 2800,
+        "url": "https://wb.ru/product/canon-pixma-g3430-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_canon",
+        "seller_name": "Canon Store",
+        "attributes": {
+          "Тип": "струйный МФУ (СНПЧ)",
+          "Скорость печати": "11 стр/мин (цветная)",
+          "Разрешение": "4800x1200 dpi",
+          "Функции": "печать/сканирование/копирование",
+          "СНПЧ": "встроенная",
+          "Подключение": "USB, Wi-Fi"
+        },
+        "reviews": [
+          {
+            "id": "wr636",
+            "text": "Лучший струйный МФУ для дома. СНПЧ экономит тысячи рублей в год. Цветная печать — яркая и насыщенная. Canon — проверенное качество.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr637",
+            "text": "Печатаю рефераты и фото — всё отлично. Чернила GI-41 стоят 500 руб за бутылку, хватает на тысячи страниц. Wi-Fi печать с телефона — удобно.",
+            "rating": 4,
+            "date": "2025-02-16",
+            "verified_purchase": true,
+            "helpful_count": 32
+          }
+        ]
+      },
+      {
+        "id": "wb_pr003",
+        "name": "Epson EcoTank L3250",
+        "price": 15990,
+        "original_price": 19990,
+        "rating": 4.3,
+        "review_count": 3800,
+        "url": "https://wb.ru/product/epson-ecotank-l3250-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_epson",
+        "seller_name": "Epson Store",
+        "attributes": {
+          "Тип": "струйный МФУ (СНПЧ)",
+          "Скорость печати": "10.5 стр/мин (ч/б)",
+          "Разрешение": "5760x1440 dpi",
+          "Функции": "печать/сканирование/копирование",
+          "СНПЧ": "встроенная (EcoTank)",
+          "Подключение": "USB, Wi-Fi Direct"
+        },
+        "reviews": [
+          {
+            "id": "wr638",
+            "text": "Epson СНПЧ — экономия на чернилах огромная. Печатаю каждый день по 20 страниц — за 3 месяца потратил 500 руб на чернила. Раньше на картриджах — 5000.",
+            "rating": 5,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 52
+          },
+          {
+            "id": "wr639",
+            "text": "Хороший принтер для дома. Сканер работает быстро, копии делает качественно. Единственный минус — медленнее лазерного.",
+            "rating": 4,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 34
+          }
+        ]
+      }
+    ],
+    "внешние аккумуляторы": [
+      {
+        "id": "wb_pb001",
+        "name": "Xiaomi Mi Power Bank 3 Ultra Compact 10000",
+        "price": 1890,
+        "original_price": 2490,
+        "rating": 4.5,
+        "review_count": 7500,
+        "url": "https://wb.ru/product/xiaomi-powerbank3-10000-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Store",
+        "attributes": {
+          "Ёмкость": "10000 мАч",
+          "Выход": "USB-A 22.5W + USB-C 20W",
+          "Вход": "USB-C 22.5W",
+          "Вес": "223 г",
+          "Размер": "105x68x14 мм"
+        },
+        "reviews": [
+          {
+            "id": "wr640",
+            "text": "Карманный повербанк — тоньше телефона. 10000 мАч — стандарт для ежедневного ношения. Xiaomi качество — проверено миллионами.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 62
+          },
+          {
+            "id": "wr641",
+            "text": "Дешёвый и надёжный. Заряжаю телефон 2 раза. USB-C вход/выход — один кабель для всего. Металлический корпус приятно лежит в руке.",
+            "rating": 4,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 45
+          }
+        ]
+      },
+      {
+        "id": "wb_pb002",
+        "name": "Anker PowerCore III Elite 25600 87W",
+        "price": 7490,
+        "original_price": 9990,
+        "rating": 4.6,
+        "review_count": 980,
+        "url": "https://wb.ru/product/anker-powercore-25600-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_anker",
+        "seller_name": "Anker Store",
+        "attributes": {
+          "Ёмкость": "25600 мАч",
+          "Выход": "USB-C 87W + 2×USB-A 18W",
+          "Вход": "USB-C 65W",
+          "Вес": "562 г",
+          "Размер": "183x82x24 мм"
+        },
+        "reviews": [
+          {
+            "id": "wr642",
+            "text": "Единственный повербанк который реально заряжает ноутбук. 87W PD — MacBook Air заряжается как от розетки. Для фрилансеров — мастхэв.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 32
+          },
+          {
+            "id": "wr643",
+            "text": "Тяжёлый, но незаменимый. В командировке 3 дня без розетки — выжил благодаря ему. Ноутбук + два телефона — хватило.",
+            "rating": 5,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 22
+          }
+        ]
+      },
+      {
+        "id": "wb_pb003",
+        "name": "Baseus Adaman2 Digital Display 20000",
+        "price": 3290,
+        "original_price": 4490,
+        "rating": 4.4,
+        "review_count": 3900,
+        "url": "https://wb.ru/product/baseus-adaman2-20000-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_baseus",
+        "seller_name": "Baseus Store",
+        "attributes": {
+          "Ёмкость": "20000 мАч",
+          "Выход": "USB-C 30W + 2×USB-A 22.5W",
+          "Вход": "USB-C 30W",
+          "Вес": "430 г",
+          "Размер": "145x68x28 мм",
+          "Дисплей": "цифровой"
+        },
+        "reviews": [
+          {
+            "id": "wr644",
+            "text": "Baseus — достойная альтернатива Anker за меньшие деньги. 20000 мАч, цифровой дисплей, 30W зарядка. Дизайн — как мини-брусок.",
+            "rating": 4,
+            "date": "2025-03-02",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr645",
+            "text": "Хороший повербанк за свои деньги. Дисплей показывает % точно. Заряжается за 5 часов полностью. Три порта — удобно в семье.",
+            "rating": 4,
+            "date": "2025-02-08",
+            "verified_purchase": true,
+            "helpful_count": 26
+          }
+        ]
+      }
+    ],
+    "маршрутизаторы": [
+      {
+        "id": "wb_rt001",
+        "name": "Keenetic Giga KN-1011",
+        "price": 9490,
+        "original_price": 11990,
+        "rating": 4.7,
+        "review_count": 2000,
+        "url": "https://wb.ru/product/keenetic-giga-kn1011-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_keenetic",
+        "seller_name": "Keenetic Store",
+        "attributes": {
+          "Стандарт": "Wi-Fi 6 (AX1800)",
+          "Частоты": "2.4 + 5 ГГц",
+          "Порты": "1×WAN + 4×LAN Gigabit, 1×USB 3.0",
+          "Антенны": "4 внешних",
+          "Процессор": "MT7621A двухъядерный"
+        },
+        "reviews": [
+          {
+            "id": "wr646",
+            "text": "Настроил за 5 минут через мобильное приложение. Wi-Fi стабильный, за 4 месяца ни одного обрыва. Keenetic — российский бренд, поддержка на русском.",
+            "rating": 5,
+            "date": "2025-03-11",
+            "verified_purchase": true,
+            "helpful_count": 44
+          },
+          {
+            "id": "wr647",
+            "text": "Лучший роутер до 10к. USB — подключил жёсткий диск, файлы доступны по сети. VPN — подключаюсь к домашней сети из офиса. Функционал богатейший.",
+            "rating": 5,
+            "date": "2025-02-22",
+            "verified_purchase": true,
+            "helpful_count": 32
+          }
+        ]
+      },
+      {
+        "id": "wb_rt002",
+        "name": "TP-Link Archer AX73",
+        "price": 7490,
+        "original_price": 9990,
+        "rating": 4.4,
+        "review_count": 3100,
+        "url": "https://wb.ru/product/tp-link-archer-ax73-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_tplink",
+        "seller_name": "TP-Link Store",
+        "attributes": {
+          "Стандарт": "Wi-Fi 6 (AX5400)",
+          "Частоты": "2.4 + 5 ГГц",
+          "Порты": "1×WAN + 4×LAN Gigabit, 1×USB 3.0",
+          "Антенны": "6 внешних",
+          "Процессор": "1.5 GHz трёхъядерный"
+        },
+        "reviews": [
+          {
+            "id": "wr648",
+            "text": "6 антенн — сигнал мощный. У соседа через 2 стены ловит. Для большой квартиры — хватает с запасом. Tether приложение — управление с телефона.",
+            "rating": 4,
+            "date": "2025-03-07",
+            "verified_purchase": true,
+            "helpful_count": 38
+          },
+          {
+            "id": "wr649",
+            "text": "Wi-Fi 6 роутер по цене Wi-Fi 5 — TP-Link молодцы. Скорость, покрытие, стабильность — всё на уровне. OneMesh — добавил усилитель, бесшовная сеть.",
+            "rating": 4,
+            "date": "2025-02-15",
+            "verified_purchase": true,
+            "helpful_count": 26
+          }
+        ]
+      },
+      {
+        "id": "wb_rt003",
+        "name": "ASUS RT-AX86U Pro",
+        "price": 16990,
+        "original_price": 21990,
+        "rating": 4.6,
+        "review_count": 720,
+        "url": "https://wb.ru/product/asus-rt-ax86u-pro-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_asus",
+        "seller_name": "ASUS Store",
+        "attributes": {
+          "Стандарт": "Wi-Fi 6 (AX5700)",
+          "Частоты": "2.4 + 5 ГГц",
+          "Порты": "1×2.5G WAN + 4×LAN Gigabit, 1×USB 3.2",
+          "Антенны": "3 внешних",
+          "Процессор": "2.0 GHz четырёхъядерный"
+        },
+        "reviews": [
+          {
+            "id": "wr650",
+            "text": "Для геймера — лучший роутер. Game Boost снижает пинг, QoS приоритизирует игровой трафик. 2.5G порт — подключил NAS на полной скорости.",
+            "rating": 5,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr651",
+            "text": "ASUS роутеры — как iPhone среди роутеров. Дорого, но работает идеально. Прошивка мощная, обновления регулярные, AiProtection бесплатный.",
+            "rating": 5,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 20
+          }
+        ]
+      }
+    ],
+    "игровые мыши": [
+      {
+        "id": "wb_gm001",
+        "name": "Logitech G Pro X Superlight 2",
+        "price": 11990,
+        "original_price": 15990,
+        "rating": 4.8,
+        "review_count": 1900,
+        "url": "https://wb.ru/product/logitech-gpro-x-superlight2-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_logitech",
+        "seller_name": "Logitech Store",
+        "attributes": {
+          "Сенсор": "HERO 2 (32000 DPI)",
+          "Вес": "60 г",
+          "Подключение": "Lightspeed 2.4 GHz",
+          "Батарея": "95 ч",
+          "Переключатели": "LIGHTFORCE гибридные",
+          "Форма": "симметричная"
+        },
+        "reviews": [
+          {
+            "id": "wr652",
+            "text": "Мышь киберспортсменов — 80% профессионалов CS2 играют на Logitech. Superlight 2 — вершина эволюции. 60г, HERO 2, LIGHTFORCE. Стоит каждого рубля.",
+            "rating": 5,
+            "date": "2025-03-12",
+            "verified_purchase": true,
+            "helpful_count": 55
+          },
+          {
+            "id": "wr653",
+            "text": "После Superlight 2 все остальные мыши кажутся кирпичами. 60 грамм — летает по ковру. Для FPS — must have. Глайды PTFE — скольжение идеальное.",
+            "rating": 5,
+            "date": "2025-02-22",
+            "verified_purchase": true,
+            "helpful_count": 40
+          }
+        ]
+      },
+      {
+        "id": "wb_gm002",
+        "name": "Razer DeathAdder V3",
+        "price": 9490,
+        "original_price": 12990,
+        "rating": 4.7,
+        "review_count": 1300,
+        "url": "https://wb.ru/product/razer-deathadder-v3-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_razer",
+        "seller_name": "Razer Store",
+        "attributes": {
+          "Сенсор": "Focus Pro 36K",
+          "Вес": "59 г",
+          "Подключение": "HyperSpeed 2.4 GHz",
+          "Батарея": "90 ч",
+          "Переключатели": "Gen-3 оптические",
+          "Форма": "эргономичная (правая рука)"
+        },
+        "reviews": [
+          {
+            "id": "wr654",
+            "text": "DeathAdder — классика gaming мышей. V3 — лучшая версия за всю историю. Лёгкая, эргономичная, беспроводная. Оптические свитчи — 0 задержки на клик.",
+            "rating": 5,
+            "date": "2025-03-08",
+            "verified_purchase": true,
+            "helpful_count": 42
+          },
+          {
+            "id": "wr655",
+            "text": "Для правшей — идеальная форма. Большой палец ложится в выемку, мизинец не свисает. 90 часов батареи — заряжаю редко. Synapse 3 настраивает всё.",
+            "rating": 4,
+            "date": "2025-02-16",
+            "verified_purchase": true,
+            "helpful_count": 28
+          }
+        ]
+      },
+      {
+        "id": "wb_gm003",
+        "name": "SteelSeries Aerox 5 Wireless",
+        "price": 7490,
+        "original_price": 10990,
+        "rating": 4.4,
+        "review_count": 900,
+        "url": "https://wb.ru/product/steelseries-aerox5-wireless-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_steelseries",
+        "seller_name": "SteelSeries Store",
+        "attributes": {
+          "Сенсор": "TrueMove Air (18000 DPI)",
+          "Вес": "74 г",
+          "Подключение": "2.4 GHz + Bluetooth 5.0",
+          "Батарея": "180 ч (BT)",
+          "Переключатели": "Golden Micro IP54",
+          "Форма": "эргономичная, 9 кнопок"
+        },
+        "reviews": [
+          {
+            "id": "wr656",
+            "text": "Много кнопок — для WoW и Dota 2 удобно. Переключатель сбоку — биндишь на ульту. IP54 — летом рука потеет, мышь выдерживает. Bluetooth для офиса — бонус.",
+            "rating": 4,
+            "date": "2025-03-04",
+            "verified_purchase": true,
+            "helpful_count": 24
+          },
+          {
+            "id": "wr657",
+            "text": "Универсальная мышь — и для игр, и для работы. Переключение между 2.4 GHz и BT — без задержки. Лёгкая, удобная, функциональная.",
+            "rating": 4,
+            "date": "2025-02-10",
+            "verified_purchase": true,
+            "helpful_count": 17
+          }
+        ]
+      }
+    ],
+    "видеорегистраторы": [
+      {
+        "id": "wb_vr001",
+        "name": "70mai Dash Cam A810 4K",
+        "price": 11490,
+        "original_price": 14990,
+        "rating": 4.5,
+        "review_count": 2400,
+        "url": "https://wb.ru/product/70mai-a810-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_70mai",
+        "seller_name": "70mai Store",
+        "attributes": {
+          "Разрешение": "4K UHD (3840x2160)",
+          "Экран": "3\" IPS",
+          "Угол обзора": "150°",
+          "GPS": "встроенный",
+          "Ночной режим": "HDR + PureCel Plus",
+          "Хранение": "microSD до 256 ГБ"
+        },
+        "reviews": [
+          {
+            "id": "wr658",
+            "text": "70mai A810 — новый король регистраторов. 4K чёткость поразительная. GPS логирует маршрут. ADAS — предупреждает о сходе с полосы. За 11к — подарок.",
+            "rating": 5,
+            "date": "2025-03-11",
+            "verified_purchase": true,
+            "helpful_count": 48
+          },
+          {
+            "id": "wr659",
+            "text": "Установил за 10 минут — присоска крепкая, кабель спрятал под обшивку. Экран 3\" — можно настроить без телефона. Запись стабильная, без артефактов.",
+            "rating": 4,
+            "date": "2025-02-22",
+            "verified_purchase": true,
+            "helpful_count": 34
+          }
+        ]
+      },
+      {
+        "id": "wb_vr002",
+        "name": "Xiaomi Dash Cam 2 2K",
+        "price": 5490,
+        "original_price": 7490,
+        "rating": 4.3,
+        "review_count": 3600,
+        "url": "https://wb.ru/product/xiaomi-dashcam2-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Store",
+        "attributes": {
+          "Разрешение": "2K (2592x1944)",
+          "Экран": "нет (через приложение)",
+          "Угол обзора": "140°",
+          "GPS": "внешний модуль",
+          "Ночной режим": "3D DNR",
+          "Хранение": "microSD до 128 ГБ"
+        },
+        "reviews": [
+          {
+            "id": "wr660",
+            "text": "Самый компактный регистратор — размером с монету. За зеркалом — невидимый. Xiaomi Mi Home — управление и просмотр. 2K — номера читаются.",
+            "rating": 4,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 36
+          },
+          {
+            "id": "wr661",
+            "text": "Бюджетный но достойный. Не 4K, но для страховых случаев 2K более чем достаточно. Без экрана — зато маленький. Для экономных — лучший выбор.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 24
+          }
+        ]
+      },
+      {
+        "id": "wb_vr003",
+        "name": "VIOFO A229 Pro Duo 4K+4K",
+        "price": 21990,
+        "original_price": 27990,
+        "rating": 4.7,
+        "review_count": 540,
+        "url": "https://wb.ru/product/viofo-a229-pro-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_viofo",
+        "seller_name": "VIOFO Store",
+        "attributes": {
+          "Разрешение": "4K+4K (две камеры)",
+          "Экран": "2.4\" IPS",
+          "Угол обзора": "140° + 160°",
+          "GPS": "встроенный",
+          "Сенсор": "Sony STARVIS 2 IMX678",
+          "Хранение": "microSD до 512 ГБ"
+        },
+        "reviews": [
+          {
+            "id": "wr662",
+            "text": "Лучший двухканальный регистратор. 4K спереди и сзади — тотальный контроль. Sony сенсор — ночное видение потрясающее. Для таксистов и каршеринга — обязателен.",
+            "rating": 5,
+            "date": "2025-03-02",
+            "verified_purchase": true,
+            "helpful_count": 28
+          },
+          {
+            "id": "wr663",
+            "text": "VIOFO — андердог рынка. Качество записи лучше чем у Blackvue за двойную цену. Конденсатор вместо батареи — зимой не подведёт.",
+            "rating": 5,
+            "date": "2025-02-08",
+            "verified_purchase": true,
+            "helpful_count": 19
+          }
+        ]
+      }
+    ],
+    "проекторы": [
+      {
+        "id": "wb_pj001",
+        "name": "XGIMI Halo+ Портативный",
+        "price": 67990,
+        "original_price": 84990,
+        "rating": 4.6,
+        "review_count": 620,
+        "url": "https://wb.ru/product/xgimi-halo-plus-001",
+        "in_stock": true,
+        "seller_id": "wb_seller_xgimi",
+        "seller_name": "XGIMI Store",
+        "attributes": {
+          "Разрешение": "Full HD (1920x1080)",
+          "Яркость": "900 ANSI люмен",
+          "Технология": "DLP",
+          "Звук": "Harman Kardon 2×5W",
+          "ОС": "Android TV 10",
+          "Батарея": "встроенная (2.5 ч)"
+        },
+        "reviews": [
+          {
+            "id": "wr664",
+            "text": "Берём на дачу каждые выходные — кино на стене дома вечером. Батарея 2.5 часа — на фильм хватает. Автофокус работает мгновенно. Звук приличный.",
+            "rating": 5,
+            "date": "2025-03-10",
+            "verified_purchase": true,
+            "helpful_count": 32
+          },
+          {
+            "id": "wr665",
+            "text": "Компактный, стильный, мощный. Весит 1.6 кг — в рюкзак и поехал. Android TV — все приложения доступны. Для путешествий — мечта.",
+            "rating": 5,
+            "date": "2025-02-20",
+            "verified_purchase": true,
+            "helpful_count": 23
+          }
+        ]
+      },
+      {
+        "id": "wb_pj002",
+        "name": "Xiaomi Laser Cinema 2 4K",
+        "price": 127990,
+        "original_price": 149990,
+        "rating": 4.7,
+        "review_count": 280,
+        "url": "https://wb.ru/product/xiaomi-laser-cinema2-002",
+        "in_stock": true,
+        "seller_id": "wb_seller_xiaomi",
+        "seller_name": "Xiaomi Store",
+        "attributes": {
+          "Разрешение": "4K UHD (3840x2160)",
+          "Яркость": "2200 ANSI люмен",
+          "Технология": "лазерный ультракороткофокусный",
+          "Звук": "2×15W",
+          "ОС": "Google TV",
+          "Расстояние": "до стены 20 см → 100\""
+        },
+        "reviews": [
+          {
+            "id": "wr666",
+            "text": "Xiaomi Laser Cinema 2 — телевизор на пенсии. 100 дюймов 4K прямо на стене. Стоит в 20 см от стены — не занимает место. Google TV — все сервисы.",
+            "rating": 5,
+            "date": "2025-03-06",
+            "verified_purchase": true,
+            "helpful_count": 26
+          },
+          {
+            "id": "wr667",
+            "text": "Лазерный проектор — безопасен для глаз при отражении. Дети могут подходить к экрану. 25000 часов ресурса — на 15 лет при 5 часах в день.",
+            "rating": 4,
+            "date": "2025-02-14",
+            "verified_purchase": true,
+            "helpful_count": 18
+          }
+        ]
+      },
+      {
+        "id": "wb_pj003",
+        "name": "BenQ TH685P Игровой",
+        "price": 52990,
+        "original_price": 64990,
+        "rating": 4.5,
+        "review_count": 440,
+        "url": "https://wb.ru/product/benq-th685p-003",
+        "in_stock": true,
+        "seller_id": "wb_seller_benq",
+        "seller_name": "BenQ Store",
+        "attributes": {
+          "Разрешение": "Full HD (1920x1080)",
+          "Яркость": "3500 ANSI люмен",
+          "Технология": "DLP",
+          "Задержка ввода": "8.3 мс (120Hz)",
+          "Частота": "120 Гц",
+          "Лампа": "10000 ч (Eco)"
+        },
+        "reviews": [
+          {
+            "id": "wr668",
+            "text": "PS5 + BenQ TH685P = домашний кинотеатр для геймера. 120 Гц на проекторе — плавная картинка. 3500 люмен — днём нормально видно.",
+            "rating": 5,
+            "date": "2025-03-02",
+            "verified_purchase": true,
+            "helpful_count": 25
+          },
+          {
+            "id": "wr669",
+            "text": "BenQ — лучшие проекторы для кино и игр. TH685P — доступный игровой вариант. Шум вентилятора — умеренный на Eco режиме.",
+            "rating": 4,
+            "date": "2025-02-08",
+            "verified_purchase": true,
+            "helpful_count": 16
+          }
         ]
       }
     ]

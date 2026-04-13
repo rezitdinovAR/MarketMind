@@ -20,7 +20,7 @@ WARNING = (
 )
 
 
-def format_recommendation(state: dict) -> str:
+def format_recommendation(state: dict, show_debug: bool = False) -> str:
     """Format final state into readable output."""
     query_spec = state.get("query_spec")
     recommendation = state.get("recommendation")
@@ -36,8 +36,8 @@ def format_recommendation(state: dict) -> str:
         return "\n".join(lines)
 
     # No results
-    products = state.get("products", [])
-    if not products:
+    groups = state.get("product_groups", [])
+    if not groups:
         lines.append("\nК сожалению, по вашему запросу ничего не найдено.")
         lines.append("Попробуйте расширить критерии поиска.")
         return "\n".join(lines)
@@ -49,9 +49,18 @@ def format_recommendation(state: dict) -> str:
         lines.append(f"{'='*60}")
 
         for rp in recommendation.top3:
-            p = rp.product
-            lines.append(f"\n  #{rp.rank} {p.name}")
-            lines.append(f"     Цена: {p.price:,} руб.  |  Рейтинг: {p.rating}/5  |  {p.marketplace}")
+            g = rp.product_group
+            lines.append(f"\n  #{rp.rank} {g.canonical_name}")
+            lines.append(f"     Лучшая цена: {g.best_price:,} руб. ({g.best_marketplace})")
+            lines.append(f"     Рейтинг: {g.avg_rating}/5 ({g.total_review_count} отзывов)")
+
+            # Price comparison
+            lines.append("     Цены на маркетплейсах:")
+            for offer in g.offers:
+                best_mark = " <-- лучшая" if offer.price == g.best_price else ""
+                lines.append(f"       {offer.marketplace:12s}  {offer.price:>7,} руб.  "
+                             f"({offer.rating}/5, {offer.review_count} отз.){best_mark}")
+
             if rp.fit_explanation:
                 lines.append(f"     Почему: {rp.fit_explanation}")
             if rp.main_advantage:
@@ -72,11 +81,12 @@ def format_recommendation(state: dict) -> str:
 
         lines.append(f"\n  Уверенность: {recommendation.confidence:.0%}")
 
-    # Stats
-    llm_calls = state.get("llm_calls", 0)
-    total_cost = state.get("total_cost", 0)
-    if llm_calls:
-        lines.append(f"\n  [LLM: {llm_calls} вызовов, ${total_cost:.4f}]")
+    # Stats (only shown when debug info is enabled)
+    if show_debug:
+        llm_calls = state.get("llm_calls", 0)
+        total_cost = state.get("total_cost", 0)
+        if llm_calls:
+            lines.append(f"\n  [LLM: {llm_calls} вызовов, ${total_cost:.4f}]")
 
     # Errors
     if errors:
@@ -88,7 +98,7 @@ def format_recommendation(state: dict) -> str:
 
 def main() -> None:
     settings = load_settings()
-    logger = setup_logger(level=settings.app.log_level, log_dir=settings.get_logs_path())
+    logger = setup_logger(level=settings.app.log_level, log_dir=settings.get_logs_path(), debug=settings.app.debug)
 
     if not settings.llm.api_key:
         print("ОШИБКА: DEEPSEEK_API_KEY не установлен.")
@@ -97,6 +107,8 @@ def main() -> None:
 
     orchestrator = Orchestrator(settings)
     print(DISCLAIMER)
+
+    chat_history: list[dict] = []
 
     while True:
         try:
@@ -110,10 +122,28 @@ def main() -> None:
         if query.lower() in ("выход", "exit", "quit", "q"):
             print("До свидания!")
             break
+        if query.lower() in ("новый", "сброс", "reset"):
+            chat_history.clear()
+            print("Диалог сброшен. Введите новый запрос.")
+            continue
+
+        chat_history.append({"role": "user", "content": query})
 
         print("\nОбработка запроса...")
-        result = orchestrator.run(query)
-        print(format_recommendation(result))
+        result = orchestrator.run(query, chat_history=chat_history)
+        output = format_recommendation(result, show_debug=settings.ui.show_debug_info)
+        print(output)
+
+        # Save assistant response to history for context in next turn
+        query_spec = result.get("query_spec")
+        if query_spec and query_spec.needs_clarification:
+            clarification_text = "Мне нужно уточнить:\n" + "\n".join(
+                f"- {q}" for q in query_spec.clarification_questions
+            )
+            chat_history.append({"role": "assistant", "content": clarification_text})
+        else:
+            # Successful result — reset history for next product search
+            chat_history.clear()
 
 
 if __name__ == "__main__":

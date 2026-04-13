@@ -112,3 +112,36 @@
 | LLM calls | > 8 | "Too many LLM calls" |
 | Duration | > 45s | "Slow request" |
 | Status | error | "Request failed" |
+
+---
+
+## 7. Utility Classes
+
+### 7.1 APIKeyMaskingFilter
+
+Logging filter (`logging.Filter`) that masks API keys matching the `sk-*` pattern in log messages. Replaces any occurrence of `sk-...` with `sk-***` to prevent secret leakage into logs.
+
+### 7.2 JSONFormatter
+
+Structured JSON log formatter (`logging.Formatter`) producing one JSON object per log line with the following fields:
+
+| Поле | Описание |
+|------|----------|
+| timestamp | ISO8601 время |
+| level | Уровень логирования (INFO, WARNING, ERROR и т.д.) |
+| message | Текст сообщения |
+| module | Имя модуля-источника |
+| request_id | Сквозной ID запроса (из extra) |
+| stage | Текущая стадия пайплайна (из extra) |
+| data | Дополнительные данные (из extra) |
+
+### 7.3 MetricsCollector
+
+In-memory metrics collector. Предоставляет два основных метода:
+
+| Метод | Описание |
+|-------|----------|
+| `inc(name, value=1, **labels)` | Инкрементировать counter-метрику |
+| `observe(name, value, **labels)` | Записать наблюдение в histogram-метрику |
+
+Глобальный экземпляр доступен как `metrics` — синглтон модуля `marketmind.observability`.

@@ -16,6 +16,14 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT_DIR / ".env")
 
 
+class StageModelConfig(BaseModel):
+    """Per-stage LLM model routing."""
+    query_analysis: str = ""
+    review_analysis: str = ""
+    comparison: str = ""
+    recommendation: str = ""
+
+
 class LLMConfig(BaseModel):
     provider: str = "deepseek"
     model: str = "deepseek-chat"
@@ -26,6 +34,13 @@ class LLMConfig(BaseModel):
     max_calls_per_request: int = 10
     max_tokens_per_request: int = 50000
     max_cost_per_request: float = 0.10
+    max_duration_seconds: int = 90
+    stage_models: StageModelConfig = Field(default_factory=StageModelConfig)
+
+    def get_model_for_stage(self, stage: str) -> str:
+        """Return model name for a pipeline stage, falling back to default."""
+        override = getattr(self.stage_models, stage, "")
+        return override if override else self.model
 
 
 class SourceConfig(BaseModel):
@@ -58,6 +73,11 @@ class AppConfig(BaseModel):
     log_level: str = "INFO"
 
 
+class UIConfig(BaseModel):
+    type: str = "streamlit"
+    show_debug_info: bool = False
+
+
 class PathsConfig(BaseModel):
     mock_data: str = "data/mock/"
     logs: str = "logs/"
@@ -69,6 +89,7 @@ class Settings(BaseModel):
     llm: LLMConfig = Field(default_factory=LLMConfig)
     search: SearchConfig = Field(default_factory=SearchConfig)
     analysis: AnalysisConfig = Field(default_factory=AnalysisConfig)
+    ui: UIConfig = Field(default_factory=UIConfig)
     paths: PathsConfig = Field(default_factory=PathsConfig)
 
     def get_mock_data_path(self) -> Path:
@@ -93,7 +114,12 @@ def load_settings() -> Settings:
     # Build nested config from YAML
     settings = Settings(
         app=AppConfig(**data.get("app", {})),
-        llm=LLMConfig(**data.get("llm", {})),
+        llm=LLMConfig(
+            **{
+                **{k: v for k, v in data.get("llm", {}).items() if k != "stage_models"},
+                "stage_models": StageModelConfig(**data.get("llm", {}).get("stage_models", {})),
+            }
+        ),
         search=SearchConfig(
             sources={
                 k: SourceConfig(**v)
@@ -104,6 +130,7 @@ def load_settings() -> Settings:
             min_rating=data.get("search", {}).get("min_rating", 3.5),
         ),
         analysis=AnalysisConfig(**data.get("analysis", {})),
+        ui=UIConfig(**data.get("ui", {})),
         paths=PathsConfig(**data.get("paths", {})),
     )
 

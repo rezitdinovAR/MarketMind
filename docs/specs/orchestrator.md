@@ -19,7 +19,7 @@
 
 | Метод | Описание |
 |-------|----------|
-| `run(user_query: str) → Recommendation` | Запуск полного пайплайна |
+| `run(user_query, chat_history) → GraphState` | Запуск полного пайплайна (chat_history для multi-turn clarification) |
 | `run_with_config(query, config) → Recommendation` | Запуск с кастомным конфигом |
 | `get_graph() → StateGraph` | Получить граф для визуализации |
 | `stream(query) → Iterator[AgentState]` | Стриминг промежуточных состояний |
@@ -47,32 +47,45 @@
 
 | Node | Модуль | Описание |
 |------|--------|----------|
+| `intent_guard` | Orchestrator (regex) | Фильтрация off-topic запросов без LLM |
 | `parse_query` | QueryAnalyzer | Парсинг запроса пользователя |
-| `search_products` | ProductSearcher | Поиск товаров по маркетплейсам |
-| `analyze_reviews` | ReviewAnalyzer | Анализ отзывов |
-| `compare_products` | Comparator | Сравнительный анализ |
+| `search_products` | ProductSearcher | Поиск и группировка товаров по маркетплейсам |
+| `analyze_reviews` | ReviewAnalyzer | Анализ агрегированных отзывов |
+| `compare_products` | Comparator | Сравнительный анализ ProductGroup |
 | `generate_recommendation` | Recommender | Формирование рекомендации |
-| `handle_error` | ErrorHandler | Обработка ошибок |
-| `format_output` | OutputFormatter | Форматирование результата |
+
+> **Примечание:** Ноды `handle_error` и `format_output` не существуют как отдельные вершины графа. Ошибки перехватываются в `Orchestrator.run()` и добавляются в state. Форматирование вывода реализовано в UI-слое (`app_cli.py` / `app_streamlit.py`).
 
 ### 3.2 Conditional Edges (условные переходы)
 
 | От | Условие | К |
 |----|---------|---|
-| parse_query | `query_spec.needs_clarification == True` | END (с вопросом) |
+| intent_guard | query has product keywords | parse_query |
+| intent_guard | off-topic or no keywords | END (clarification) |
+| parse_query | `needs_clarification == True` | END (clarification) |
 | parse_query | `query_spec is valid` | search_products |
-| parse_query | `exception raised` | handle_error |
-| search_products | `len(products) == 0` | END (no results) |
-| search_products | `len(products) > 0` | analyze_reviews |
-| search_products | `exception raised` | handle_error |
-| analyze_reviews | `any result` | compare_products |
-| analyze_reviews | `exception raised` | compare_products (degraded) |
-| compare_products | `comparison valid` | generate_recommendation |
-| compare_products | `exception raised` | handle_error |
-| generate_recommendation | `validation passed` | format_output |
-| generate_recommendation | `validation failed, attempts < 2` | generate_recommendation |
-| generate_recommendation | `validation failed, attempts >= 2` | format_output (degraded) |
-| generate_recommendation | `exception raised` | handle_error |
+| parse_query | `query_spec is None` | END (no results) |
+| search_products | `len(product_groups) > 0` | analyze_reviews |
+| search_products | `len(product_groups) == 0` | END (no results) |
+| analyze_reviews | always | compare_products |
+| compare_products | always | generate_recommendation |
+| generate_recommendation | always | END |
+
+**Обновлённая схема (актуальная):**
+
+```mermaid
+graph LR
+    intent_guard -->|product?| parse_query
+    intent_guard -->|off-topic| END_clarify[END clarification]
+    parse_query -->|clarify?| END_clarify2[END clarification]
+    parse_query -->|valid| search_products
+    parse_query -->|None| END_noresults[END no results]
+    search_products -->|found| analyze_reviews
+    search_products -->|empty| END_noresults2[END no results]
+    analyze_reviews --> compare_products
+    compare_products --> generate_recommendation
+    generate_recommendation --> END_done[END]
+```
 
 ---
 
@@ -97,10 +110,10 @@
 
 | Guardrail | Limit | Action on Exceed |
 |-----------|-------|------------------|
-| Max LLM calls | 10 | Skip remaining LLM steps, use heuristics |
-| Max tokens | 50,000 | Stop, return partial result |
-| Max cost | $0.10 | Stop, return partial result |
-| Max duration | 90s | Stop, return partial result |
+| Max LLM calls | 10 | LLMBudgetExceededError |
+| Max tokens | 50,000 | LLMBudgetExceededError |
+| Max cost | $0.10 | LLMBudgetExceededError |
+| Max duration | 90s | LLMBudgetExceededError |
 
 ### 5.2 Quality Guardrails
 

@@ -13,7 +13,7 @@
 | Метод | Описание |
 |-------|----------|
 | `call(messages, temperature, max_tokens, response_format)` | Вызов LLM |
-| `call_with_json(messages, schema)` | Вызов с валидацией JSON-схемы |
+| `call_json(messages, temperature, max_tokens, model_override, schema)` | Вызов с JSON-ответом; `schema` — опциональный Pydantic model class для валидации |
 | `get_usage_stats()` | Статистика текущей сессии |
 | `reset_session()` | Сброс счётчиков сессии |
 
@@ -40,16 +40,13 @@
 ![alt text](../images/llm_client.png)
 
 ## 4. Retry стратегия
+
 | Ошибка | Retry? | Backoff | Max attempts |
 |--------|--------|---------|--------------|
-| Timeout (30s) | Да | Нет | 2 |
-| Rate Limit (429) | Да | Exponential: 1s, 2s, 4s | 3 |
-| Server Error (5xx) | Да | Linear: 1s | 2 |
-| Bad Request (400) | Нет | — | — |
-| Auth Error (401) | Нет | — | — |
+| Любая ошибка API | Да | Exponential: 1s, 2s, 4s (capped) | config.max_retries (default 2) |
 | JSON Parse Error | Да* | Нет | 2 |
 
-*При JSON Parse Error — retry с модифицированным промптом:
+*При JSON Parse Error — retry с модифицированным промптом + опциональная Pydantic-валидация через параметр `schema`:
 ```
 "Предыдущий ответ был невалидным JSON.
 Ответь СТРОГО в формате JSON, без текста до/после."
@@ -80,15 +77,14 @@
 {
   "timestamp": "2024-01-15T10:30:00Z",
   "call_id": "uuid-xxx",
-  "request_id": "parent-request-uuid",
   "model": "deepseek-chat",
-  "stage": "review_analysis",
   "input_tokens": 1500,
   "output_tokens": 500,
   "latency_ms": 2300,
   "cost_usd": 0.00025,
   "success": true,
   "retry_count": 0,
+  "attempt": 1,
   "temperature": 0.5
 }
 ```
@@ -105,9 +101,9 @@ LLMAuthError|Неверный API key|Нет
 ## 8. Метрики
 Метрика|Тип|Labels
 |---|---|---|
-llm_calls_total|Counter|model, stage, status
-llm_latency_seconds|Histogram|model, stage
-llm_tokens_total|Counter|model, direction (in/out)
+llm_calls_total|Counter|model, status
+llm_latency_seconds|Histogram|model
+llm_tokens_total|Counter|model, type (in/out)
 llm_cost_usd_total|Counter|model
-llm_retries_total|Counter|model, error_type
+llm_retries_total|Counter|model
 llm_errors_total|Counter|model, error_type

@@ -2,90 +2,97 @@
 
 ## 1. Общее описание
 
-**State Manager** — модуль управления состоянием агента. Хранит все промежуточные данные, валидирует переходы между стадиями, создаёт checkpoints для отладки.
+В текущей реализации **отдельный класс StateManager не существует**. Управление состоянием реализовано неявно средствами LangGraph: состояние представлено как `GraphState` (TypedDict), передаётся между нодами графа и автоматически мержится после каждого шага.
+
+### Принципы работы
+- Состояние — это `GraphState(TypedDict, total=False)`, проходящий через LangGraph-ноды
+- Каждая нода возвращает `dict` с обновлёнными полями, которые мержатся в текущий state
+- Валидация происходит неявно: через Pydantic-модели (QuerySpec, ProductGroup и т.д.) и routing-функции
+- Трассировка выполнения находится в `RequestTrace` (модуль `observability.py`), а не в state
 
 ---
 
-## 2. Интерфейс модуля
-
-### 2.1 Основные методы
-
-| Метод | Описание |
-|-------|----------|
-| `update(**kwargs)` | Обновить поля состояния |
-| `transition(new_stage)` | Перейти на новую стадию с валидацией |
-| `checkpoint()` | Сохранить текущее состояние |
-| `get_state()` | Получить иммутабельную копию состояния |
-| `get_summary()` | Краткая сводка для логирования |
-| `add_error(error)` | Добавить ошибку в список |
-
-### 2.2 AgentState Schema
+## 2. GraphState Schema
 
 | Поле | Тип | Описание |
 |------|-----|----------|
-| request_id | str | UUID запроса |
 | user_query | str | Исходный запрос пользователя |
-| query_spec | QuerySpec | Распарсенный запрос |
-| products | list[Product] | Найденные товары |
+| chat_history | list[dict] | История сообщений для multi-turn clarification |
+| query_spec | Optional[QuerySpec] | Распарсенный запрос |
+| product_groups | list[ProductGroup] | Найденные группы товаров (объединение по маркетплейсам) |
+| group_reviews | dict[str, list[Review]] | Отзывы, сгруппированные по group_id |
 | analyzed_products | list[ProductAnalysis] | Товары с анализом отзывов |
-| comparison | ComparisonTable | Результат сравнения |
-| recommendations | list[RankedProduct] | Финальные рекомендации |
-| explanation | str | Текст объяснения |
+| recommendation | Optional[Recommendation] | Финальная рекомендация (единственная) |
 | stage | WorkflowStage | Текущая стадия |
 | errors | list[str] | Накопленные ошибки |
-| llm_calls | int | Количество LLM вызовов |
+| llm_calls | int | Количество LLM-вызовов |
 | total_tokens | int | Суммарное количество токенов |
 | total_cost | float | Суммарная стоимость |
-| start_time | datetime | Время начала |
 
-## 3. Алгоритм работы
+> **Примечание:** Поля `request_id` и `start_time` не входят в GraphState — они хранятся в `RequestTrace` (модуль `observability.py`).
 
-### 3.1 Валидация переходов
+---
+
+## 3. Механизм обновления состояния
+
+### 3.1 Как ноды обновляют state
+
+Каждая нода LangGraph получает текущий `GraphState` и возвращает `dict` с изменёнными полями:
+
+```python
+def parse_query(state: GraphState) -> dict:
+    # ... логика парсинга ...
+    return {
+        "query_spec": spec,
+        "stage": WorkflowStage.QUERY_PARSED,
+    }
+```
+
+LangGraph автоматически мержит возвращённый dict в текущий state.
+
+### 3.2 Валидация переходов
 ![alt text](../images/state_manager.png)
 
-### 3.2 Checkpoint механизм
+**Обновлённая схема (актуальная):**
 
-При каждом checkpoint сохраняется:
-- Текущая стадия
-- Полный snapshot состояния (сериализованный)
-- Метрики на момент checkpoint (calls, tokens, cost)
-- Timestamp
+Валидация переходов между стадиями реализована через conditional edges в LangGraph-графе (routing-функции в `orchestrator.py`), а не через отдельный StateManager. Каждая routing-функция проверяет текущее состояние и решает, какая нода будет следующей.
 
-В debug mode checkpoints пишутся в файлы: logs/traces/{request_id}/checkpoint_{stage}_{timestamp}.json
-
-### 3.3 Context Budget
-
-Отслеживание расхода токенов против лимита:
-
-| Метод | Описание |
-|-------|----------|
-| `can_spend(tokens)` | Проверить, хватит ли бюджета |
-| `spend(tokens)` | Списать токены с бюджета |
-| `remaining()` | Сколько осталось |
-
-При превышении бюджета → BudgetExceededError
+---
 
 ## 4. State Summary (для логов)
+
 ```json
 {
-  "request_id": "abc-123",
   "stage": "REVIEWS_ANALYZED",
-  "products_count": 8,
+  "product_groups_count": 8,
   "analyzed_count": 8,
-  "recommendations_count": 0,
+  "has_recommendation": false,
   "llm_calls": 4,
   "total_tokens": 12500,
   "total_cost": 0.018,
   "errors_count": 0,
-  "duration_seconds": 12
+  "chat_history_length": 1
 }
 ```
 
-## 5. Обработка ошибок
-Ситуация|Действие
-|---|---|
-Невалидный переход|Raise InvalidTransitionError
-Update несуществующего поля|Raise AttributeError
-Checkpoint в error stage|Сохранить с флагом is_error=true
-Budget exceeded|Raise BudgetExceededError, перейти в ERROR
+---
 
+## 5. Трассировка и observability
+
+Трассировка выполнения запроса обеспечивается модулем `observability.py` через класс `RequestTrace`, который хранит:
+- `request_id` — UUID запроса
+- `start_time` — время начала
+- Timestamps каждого шага
+- Метрики (latency, tokens, cost)
+
+`RequestTrace` существует отдельно от `GraphState` и не передаётся между нодами графа.
+
+---
+
+## 6. Обработка ошибок
+
+| Ситуация | Действие |
+|----------|----------|
+| Ошибка в ноде | Перехватывается в `Orchestrator.run()`, добавляется в `state["errors"]` |
+| Budget exceeded | `LLMBudgetExceededError`, перейти в ERROR |
+| Невалидный JSON от LLM | Retry с модифицированным промптом (в LLMClient) |

@@ -1,4 +1,4 @@
-"""ReviewAnalyzer — summarizes product reviews using LLM."""
+"""ReviewAnalyzer — summarizes aggregated product reviews using LLM."""
 
 from __future__ import annotations
 
@@ -7,9 +7,8 @@ from pathlib import Path
 
 from marketmind.llm_client import LLMClient
 from marketmind.models import (
-    AgentState,
-    Product,
     ProductAnalysis,
+    ProductGroup,
     Review,
     ReviewSummary,
     WorkflowStage,
@@ -33,7 +32,6 @@ def _load_prompt(prompts_dir: Path) -> str:
 
 
 def _format_reviews(reviews: list[Review]) -> str:
-    """Format reviews into text for LLM prompt."""
     lines = []
     for r in reviews:
         stars = "*" * r.rating
@@ -42,29 +40,37 @@ def _format_reviews(reviews: list[Review]) -> str:
     return "\n\n".join(lines)
 
 
-def _analyze_single_product(
-    product: Product,
+def _analyze_single_group(
+    group: ProductGroup,
     reviews: list[Review],
     llm: LLMClient,
     system_prompt: str,
+    model_override: str | None = None,
 ) -> ProductAnalysis:
-    """Analyze reviews for a single product."""
+    """Analyze aggregated reviews for a product group."""
     if not reviews:
         return ProductAnalysis(
-            product=product,
+            product_group=group,
             review_summary=ReviewSummary(
                 summary="Нет отзывов для анализа",
                 trust_score=0.0,
             ),
         )
 
+    # Build marketplace overview for context
+    marketplace_info = []
+    for offer in group.offers:
+        marketplace_info.append(
+            f"  {offer.marketplace}: {offer.price} руб. "
+            f"(рейтинг {offer.rating}/5, {offer.review_count} отзывов)"
+        )
+
     reviews_text = _format_reviews(reviews)
     user_message = (
-        f"Товар: {product.name}\n"
-        f"Цена: {product.price} руб.\n"
-        f"Рейтинг: {product.rating}/5 ({product.review_count} отзывов)\n"
-        f"Маркетплейс: {product.marketplace}\n\n"
-        f"Отзывы:\n{reviews_text}"
+        f"Товар: {group.canonical_name}\n"
+        f"Представлен на маркетплейсах:\n" + "\n".join(marketplace_info) + "\n"
+        f"Средний рейтинг: {group.avg_rating}/5 ({group.total_review_count} отзывов суммарно)\n\n"
+        f"Отзывы со всех маркетплейсов ({len(reviews)} шт.):\n{reviews_text}"
     )
 
     messages = [
@@ -73,7 +79,7 @@ def _analyze_single_product(
     ]
 
     try:
-        result = llm.call_json(messages, temperature=0.3, max_tokens=1024)
+        result = llm.call_json(messages, temperature=0.3, max_tokens=1024, model_override=model_override)
         review_summary = ReviewSummary(
             pros=result.get("pros", []),
             cons=result.get("cons", []),
@@ -81,22 +87,21 @@ def _analyze_single_product(
             trust_score=min(1.0, max(0.0, result.get("trust_score", 0.5))),
         )
     except Exception as e:
-        logger.warning(f"Review analysis failed for {product.id}: {e}")
-        # Fallback: basic summary from raw data
+        logger.warning(f"Review analysis failed for {group.group_id}: {e}")
         review_summary = ReviewSummary(
-            summary=f"Рейтинг {product.rating}/5 на основе {product.review_count} отзывов",
+            summary=f"Рейтинг {group.avg_rating}/5 на основе {group.total_review_count} отзывов",
             trust_score=0.3,
         )
 
-    return ProductAnalysis(product=product, review_summary=review_summary)
+    return ProductAnalysis(product_group=group, review_summary=review_summary)
 
 
-def run_review_analyzer(state: dict, llm: LLMClient, prompts_dir: Path) -> dict:
-    """LangGraph node: analyze reviews for all found products."""
-    products: list[Product] = state.get("products", [])
-    product_reviews: dict[str, list[Review]] = state.get("product_reviews", {})
+def run_review_analyzer(state: dict, llm: LLMClient, prompts_dir: Path, model_override: str | None = None) -> dict:
+    """LangGraph node: analyze reviews for all product groups."""
+    product_groups: list[ProductGroup] = state.get("product_groups", [])
+    group_reviews: dict[str, list[Review]] = state.get("group_reviews", {})
 
-    if not products:
+    if not product_groups:
         return {
             "analyzed_products": [],
             "stage": WorkflowStage.REVIEWS_ANALYZED,
@@ -105,12 +110,14 @@ def run_review_analyzer(state: dict, llm: LLMClient, prompts_dir: Path) -> dict:
     system_prompt = _load_prompt(prompts_dir)
     analyzed: list[ProductAnalysis] = []
 
-    for product in products:
-        reviews = product_reviews.get(product.id, [])
-        analysis = _analyze_single_product(product, reviews, llm, system_prompt)
+    for group in product_groups:
+        reviews = group_reviews.get(group.group_id, [])
+        analysis = _analyze_single_group(group, reviews, llm, system_prompt, model_override)
         analyzed.append(analysis)
         logger.info(
-            f"Analyzed reviews for {product.name}: trust={analysis.review_summary.trust_score}",
+            f"Analyzed reviews for {group.canonical_name} "
+            f"({len(group.offers)} offers, {len(reviews)} reviews): "
+            f"trust={analysis.review_summary.trust_score}",
             extra={"stage": "review_analyzer"},
         )
 

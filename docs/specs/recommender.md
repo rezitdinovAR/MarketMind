@@ -21,13 +21,15 @@
 | query_spec | QuerySpec | Исходный распарсенный запрос |
 | analyzed_products | list[ProductAnalysis] | Полные данные о товарах с отзывами |
 
+> **Примечание:** `ProductAnalysis` содержит поле `product_group: ProductGroup` (не `product: Product`). `ProductGroup` объединяет предложения одной модели с разных маркетплейсов, включая `best_price`, `best_marketplace` и список `offers: list[MarketplaceOffer]`. Рекомендация работает именно с группами товаров, а не с отдельными листингами.
+
 ### 2.2 Выходные данные
 
 **RankedProduct:**
 | Поле | Тип | Описание |
 |------|-----|----------|
 | rank | int | Место: 1, 2 или 3 |
-| product | Product | Данные о товаре |
+| product_group | ProductGroup | Данные о группе товара (объединение по маркетплейсам) |
 | review_summary | ReviewSummary | Суммаризация отзывов |
 | final_score | float | Итоговый балл 0-1 |
 | fit_explanation | str | Почему подходит под запрос (1 предложение) |
@@ -50,7 +52,7 @@
 | Проверка | Что проверяем | При провале |
 |----------|---------------|-------------|
 | Product existence | Все рекомендованные ID есть в исходном списке | Regenerate |
-| Price accuracy | Цены в тексте ±5% от реальных | Warning + fix |
+| Price accuracy | `_check_price_consistency()`: regex извлекает цены из текста explanation (паттерн `\d[\d\s,.]*\d\s*руб/₽`), сравнивает каждую упомянутую цену с `best_price` из `ProductGroup`. Допуск: **±5%**. Если цена неверная, но в диапазоне 50%-200% от реальной — **автозамена** в тексте. Исправления логируются. | Warning + auto-fix |
 | Length check | Explanation > 100 символов | Regenerate |
 | No hallucinations | Характеристики соответствуют данным | Regenerate |
 | Rank correctness | Ранги 1, 2, 3 без пропусков | Fix automatically |
